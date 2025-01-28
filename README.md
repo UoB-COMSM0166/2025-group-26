@@ -13,6 +13,7 @@ Include a demo video of your game here (you don't have to wait until the end, yo
 
 Add a group photo here!
 | Name | email | role |
+| --------- | -------- | -------- |
 |Jianrun Han| mg24372@bristol.ac.uk| Yuki-457
 |Kai Wu| fp24386@bristol.ac.uk| Flash-wk
 |TSE YING CHEN| sw24863@bristol.ac.uk| Liamchenn

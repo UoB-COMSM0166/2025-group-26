@@ -20,6 +20,11 @@ Include a demo video of your game here (you don't have to wait until the end, yo
 |CHENG HSUAN LEE| bo24397@bristol.ac.uk| Allison-sa
 - Group member 6, name, email, role
 
+## week2
+
+- 1.  Mario's Soul
+- 2.  Space shooter
+
 ## Project Report
 
 ### Introduction

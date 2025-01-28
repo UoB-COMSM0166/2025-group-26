@@ -10,8 +10,7 @@ Your game lives in the [/docs](/docs) folder, and is published using Github page
 Include a demo video of your game here (you don't have to wait until the end, you can insert a work in progress video)
 
 ## Your Group
-
-Add a group photo here!
+![IMG_2211 2](https://github.com/user-attachments/assets/1968bb52-32bb-43a1-8b22-b9d4c6253685)
 | NAME | EMAIL | ROLE |
 | --------- | -------- | -------- |
 |Jianrun Han| mg24372@bristol.ac.uk| Yuki-457

@@ -37,9 +37,11 @@ Include a demo video of your game here (you don't have to wait until the end, yo
 ## week2
 
 ## week3
-two kind of game:
+Two kind of game:
 - 1.  Mario's Soul
      This game's prototype file name is ste weeks
+     ![IMG_0520](https://github.com/user-attachments/assets/8086ee10-d070-4296-b2d2-aa84ff93d0d2)
+
 - 2.  Space shooter
      ![簡報1_page-0001](https://github.com/user-attachments/assets/019cb81b-58b4-4d2e-9a8b-1b5901d9ca5a)
 

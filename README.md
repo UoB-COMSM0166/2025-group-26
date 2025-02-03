@@ -33,20 +33,7 @@ Include a demo video of your game here (you don't have to wait until the end, yo
 |Lego Zombies Two-Player Invincible Mode|The game offers single-player, two-player, and two-player battle modes. The main goal take out all the zombies. When you defeat zombies, you’ll earn points, level up, and unlock various weapons to fight them off.| - Players can team up with friends to fight zombies together. The co-op mode enhances social interaction, making it ideal for families or friends to play together.
 - Stress-Free Experience in Invincible Mode Invincible mode allows players to play freely without worrying about character death. It’s great for beginners or those who just want to relax. Players can also set personal challenges, like defeating a certain number of zombies or achieving high scores.
 - Very simple|
-|Soul Knight|- Multiple Character Options:
-  Different characters have unique abilities, such as the mage's area attack or the assassin's high burst damage, allowing players to choose based on their preferences.
-- Diverse Weapon System:
-  The game features hundreds of weapons, ranging from traditional firearms to quirky magical weapons (like laser swords and pumpkin guns), adding to the fun.
-- Simple and Intuitive Controls:
-  Dual joystick controls—one for movement and one for shooting—make it ideal for mobile platforms.
-- Multiple Gameplay Modes:
-  Offers single-player mode, two-player co-op mode, and challenge mode to cater to different player preferences.|-High Replayability:
-Randomly map and a wide variety of weapons provide a fresh experience every time.
--Co-op Gameplay:
-Supports local two-player co-op.
 
-**great-Paced Combat 戰鬥**:
-Offers a smooth and engaging combat rhythm.|
 
 ## week2
 

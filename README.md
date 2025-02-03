@@ -3,6 +3,8 @@
 
 ## Your Game
 
+Records and production process: https://daffodil-louse-74e.notion.site/project-discussion-18f1bdec181b80ada206cdafc3035fcc?pvs=4
+
 Link to your game [PLAY HERE](https://peteinfo.github.io/COMSM0166-project-template/)
 
 Your game lives in the [/docs](/docs) folder, and is published using Github pages to the link above.

@@ -25,6 +25,9 @@ Include a demo video of your game here (you don't have to wait until the end, yo
 - 1.  Mario's Soul
 - 2.  Space shooter
 
+## kanban
+- https://comet-whale-436.notion.site/project-discussion-18a9075464b380e18f3fc04f8911f6ef
+
 ## Project Report
 
 ### Introduction

@@ -3,8 +3,6 @@
 
 ## Your Game
 
-Records and production process: https://daffodil-louse-74e.notion.site/project-discussion-18f1bdec181b80ada206cdafc3035fcc?pvs=4
-
 Link to your game [PLAY HERE](https://peteinfo.github.io/COMSM0166-project-template/)
 
 Your game lives in the [/docs](/docs) folder, and is published using Github pages to the link above.
@@ -38,11 +36,16 @@ Include a demo video of your game here (you don't have to wait until the end, yo
 
 ## week2
 
+## week3
+two kind of game:
 - 1.  Mario's Soul
 - 2.  Space shooter
+     ![簡報1_page-0001](https://github.com/user-attachments/assets/019cb81b-58b4-4d2e-9a8b-1b5901d9ca5a)
+
 
 ## kanban
 - https://daffodil-louse-74e.notion.site/project-discussion-18f1bdec181b80ada206cdafc3035fcc
+
 
 ## Project Report
 

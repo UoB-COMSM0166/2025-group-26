@@ -26,7 +26,6 @@ Include a demo video of your game here (you don't have to wait until the end, yo
 | Game Name | Game Mechanics | Advantages |
 | --------- | -------- | -------- |
 |Subway Surfers|Players control the character to run on an endless road,avoiding obstacles and collecting props, the game gradually increases in speed and difficulty over time|Simple and easy to play, and randomly generated maps High replayability|
-
 |Puzzle Bobble|The player controls a bubble launcher that shoots colored bubbles upward with the goal of shooting them into the cluster of bubbles hanging at the top of the screen. When three or more bubbles of the same color are connected, these bubbles will be eliminated. Eliminate all bubbles to pass the level.|Simple and easy to use, with both strategy and skill.|
 |Space shooter|Players can freely control the movement of the ship on the screen. The ship can fire bullets or lasers to destroy incoming enemies or obstacles, and can upgrade its weapons by picking up props. At the end of the level, there will be a powerful boss enemy, which requires special strategy and skills to defeat.|Space shooting games are known for their fast and furious battles where players need to stay focused and agile. The entry level is low, but achieving high scores or completing difficult challenges requires a lot of practice and strategy.|
 |Candy Crush|By exchanging neighboring candies, the player makes three or more candies of the same color line up together, thus eliminating them and scoring points.|Easy to use, visually and sound appealing.|

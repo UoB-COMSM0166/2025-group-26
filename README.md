@@ -28,7 +28,7 @@ Include a demo video of your game here (you don't have to wait until the end, yo
 - 2.  Space shooter
 
 ## kanban
-- https://comet-whale-436.notion.site/project-discussion-18a9075464b380e18f3fc04f8911f6ef
+- https://daffodil-louse-74e.notion.site/project-discussion-18f1bdec181b80ada206cdafc3035fcc
 
 ## Project Report
 

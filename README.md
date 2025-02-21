@@ -46,12 +46,12 @@ Game mechnice:
 | UI Interface | Description |
 | --------- | -------- | 
 | main manu | -------- |
-| --------- | Game Name|
-| --------- | Button: Start|
-| --------- | Button : asking if user need tutorial|
+|  | Game Name|
+|  | Button: Start|
+|  | Button : asking if user need tutorial|
 | Persistent screen  |  setting button|
-| -------- | time bar|
-| -------- | level up progress(coin)|
+|  | time bar|
+|  | level up progress(coin)|
 
 
 - 2.  Space shooter

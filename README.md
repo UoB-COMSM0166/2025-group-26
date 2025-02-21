@@ -29,7 +29,7 @@ Include a demo video of your game here (you don't have to wait until the end, yo
 |Candy Crush|By exchanging neighboring candies, the player makes three or more candies of the same color line up together, thus eliminating them and scoring points.|Easy to use, visually and sound appealing.|
 |Doodle Jump|The character will jump automatically, and the player's goal is to control the direction of the jump so that the character successfully lands on the next platform. There are different types of platforms in the game, some of them are fixed and others will disappear, players need to be careful not to fall. Enemies will appear in the game and you need to avoid colliding with them, and players can collect props to help players get more points in the game.| Easy to learn, easy to play experience, simple graphics and sound effects|
 |Lego Zombies Two-Player Invincible Mode|The game offers single-player, two-player, and two-player battle modes. The main goal take out all the zombies. When you defeat zombies, you’ll earn points, level up, and unlock various weapons to fight them off.| - Players can team up with friends to fight zombies together. The co-op mode enhances social interaction, making it ideal for families or friends to play together.<br>- Stress-Free Experience in Invincible Mode Invincible mode allows players to play freely without worrying about character death. It’s great for beginners or those who just want to relax. Players can also set personal challenges, like defeating a certain number of zombies or achieving high scores.<br>- Very simple|
-|Soul Knight|- Multiple Character Options:  Different characters have unique abilities, such as the mage's area attack or the assassin's high burst damage, allowing players to choose based on their preferences.<br> - Diverse Weapon System:  The game features hundreds of weapons, ranging from traditional firearms to quirky magical weapons (like laser swords and pumpkin guns), adding to the fun.<br> - Simple and Intuitive Controls:  Dual joystick controls—one for movement and one for shooting—make it ideal for mobile platforms.- Multiple Gameplay Modes:  Offers single-player mode, two-player co-op mode, and challenge mode to cater to different player preferences.|-High Replayability: Randomly map and a wide variety of weapons provide a fresh experience every time.<br> -Co-op Gameplay: Supports local two-player co-op.<br> **great-Paced Combat 戰鬥**:Offers a smooth and engaging combat rhythm.|
+|Soul Knight|- Multiple Character Options:  Different characters have unique abilities, such as the mage's area attack or the assassin's high burst damage, allowing players to choose based on their preferences.<br> - Diverse Weapon System:  The game features hundreds of weapons, ranging from traditional firearms to quirky magical weapons (like laser swords and pumpkin guns), adding to the fun.<br> - Simple and Intuitive Controls:  Dual joystick controls—one for movement and one for shooting—make it ideal for mobile platforms.- Multiple Gameplay Modes:  Offers single-player mode, two-player co-op mode, and challenge mode to cater to different player preferences.|-High Replayability: Randomly map and a wide variety of weapons provide a fresh experience every time.<br> -Co-op Gameplay: Supports local two-player co-op.<br> **great-Paced Combat **:Offers a smooth and engaging combat rhythm.|
 |fire hero 2d space shooter|Players control a spaceship and earn game points by shooting enemies.Each level features a big boss, and players can collect weapon upgrade items to achieve higher scores.Occasionally, there are specific achievement challenges.|Good combat pacing Great visuals and sound effects Various weapon combinations, random item drops, and challenge leaderboards Simple game controls|
 |Mario's Soul|Souls-like Gameplay in Super Mario Souls-like games (like Dark Souls) and sports games (like the FIFA series) are my favorite types of games, and I hope to incorporate elements of them into my course project, even though it might be highly challenging. My smart and cute teammates have discussed many mini-games, like Box Push and Plane Shooting, which are both classic and fun. My idea is to add some mechanics from Souls-like games on top of these mini-games to make the game more challenging. For example, integrating Souls-like mechanics into Super Mario, such as reducing checkpoints or setting death penalties, to increase the difficulty. The challenge of this design lies in the large content of the Super Mario game itself and how to implement the Souls-like mechanics.|
 
@@ -42,16 +42,17 @@ Two kind of game:
      This game's prototype file name is ste weeks
     https://youtu.be/rEYfj8_VpYA
      ![IMG_0520](https://github.com/user-attachments/assets/8086ee10-d070-4296-b2d2-aa84ff93d0d2)
-Game mechnice:
+
+**Game mechnice:**
 | UI Interface | Description |
 | --------- | -------- | 
-| main manu | -------- |
+| main manu |  
 |  | Game Name|
-|  | Button: Start|
-|  | Button : asking if user need tutorial|
-| Persistent screen  |  setting button|
-|  | time bar|
-|  | level up progress(coin)|
+|  | Button: Start
+|  | Button : asking if user need tutorial
+| Persistent screen  |  setting button
+|  | time bar
+|  | level up progress(coin)
 
 
 - 2.  Space shooter

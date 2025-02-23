@@ -23,7 +23,7 @@ Include a demo video of your game here (you don't have to wait until the end, yo
 ## Weekly Homeworks Links
 | Week | Content |
 | --------- | -------- |
-| [Week1]((https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week1.md) | Research game and create a list of game|
+| [Week1](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week1.md) | Research game and create a list of game|
 
 ## week1
 | Game Name | Game Mechanics | Advantages |

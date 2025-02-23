@@ -20,7 +20,7 @@ Include a demo video of your game here (you don't have to wait until the end, yo
 |CHENG HSUAN LEE| bo24397@bristol.ac.uk| Allison-sa
 - Group member 6, name, email, role
 
-## Weekly Homeworks Links
+## Weekly Homework Links
 | Week | Content |
 | --------- | -------- |
 | [Week1](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week1.md) | Research game and create a list of game|

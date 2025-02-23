@@ -26,15 +26,17 @@ Our [Kanban](https://daffodil-louse-74e.notion.site/project-discussion-18f1bdec1
 
 ### Introduction
 
+Our game, Dukat Soul, is encouraged by a famous type of game, soulslike. This type of game features in challenging player’ s physical and mental abilities through its difficulties and hopelessness. Dukat soul is here to challenge everyone who has faith with themselves by creative level design and mechanism.
+
 - 5% ~250 words 
 - Describe your game, what is based on, what makes it novel? 
 
 ### Requirements 
 
-1.Case Diagrams
-2.User Stories
-3.Early stages design
-4.Ideation process
+1.Case Diagrams\
+2.User Stories\
+3.Early stages design\
+4.Ideation process\
 5.How did you decide as a team what to develop?
 
 - 15% ~750 words
@@ -42,8 +44,8 @@ Our [Kanban](https://daffodil-louse-74e.notion.site/project-discussion-18f1bdec1
 
 ### Design
 
-1.System architecture
-2.Class diagrams
+1.System architecture\
+2.Class diagrams\
 3.behavioural diagrams
 
 - 15% ~750 words 

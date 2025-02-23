@@ -22,14 +22,62 @@ Our [Kanban](https://daffodil-louse-74e.notion.site/project-discussion-18f1bdec1
 |CHENG HSUAN LEE| bo24397@bristol.ac.uk| Allison-sa
 - Group member 6, name, email, role
 
+## Project Report
+
+# Introduction
+
+- 5% ~250 words 
+- Describe your game, what is based on, what makes it novel? 
+
+# Requirements 
+
+1.Case Diagrams
+2.User Stories
+3.Early stages design
+4.Ideation process
+5.How did you decide as a team what to develop?
+
+- 15% ~750 words
+- Use case diagrams, user stories. Early stages design. Ideation process. How did you decide as a team what to develop? 
+
+# Design
+
+1.System architecture
+2.Class diagrams
+3.behavioural diagrams
+
+- 15% ~750 words 
+- System architecture. Class diagrams, behavioural diagrams. 
+
+# Implementation
+
+- 15% ~750 words
+- Describe implementation of your game, in particular highlighting the three areas of challenge in developing your game. 
+
+# Evaluation
+
+- 15% ~750 words
+- One qualitative evaluation (your choice) 
+- One quantitative evaluation (of your choice) 
+- Description of how code was tested. 
+
+# Process 
+
+- 15% ~750 words
+- Teamwork. How did you work together, what tools did you use. Did you have team roles? Reflection on how you worked together. 
+
+# Conclusion
+
+- 10% ~500 words
+- Reflect on project as a whole. Lessons learned. Reflect on challenges. Future work.
+
+
 ## Weekly Homework Links
 | Week | Content |
 | --------- | -------- |
 |[Week1](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week1.md) | Research game and create a list of game|
 |[Week2](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week2.md)| |
 | Adding| |
-
-
 
 ## week3
 Two kind of game:
@@ -54,52 +102,7 @@ Two kind of game:
      ![簡報1_page-0001](https://github.com/user-attachments/assets/019cb81b-58b4-4d2e-9a8b-1b5901d9ca5a)
 
 And after we discuss, we decided to do Mario's Soul (The keypoint is Soul game).
-
-
-## Project Report
-
-### Introduction
-
-- 5% ~250 words 
-- Describe your game, what is based on, what makes it novel? 
-
-### Requirements 
-
-- 15% ~750 words
-- Use case diagrams, user stories. Early stages design. Ideation process. How did you decide as a team what to develop? 
-
-### Design
-
-- 15% ~750 words 
-- System architecture. Class diagrams, behavioural diagrams. 
-
-### Implementation
-
-- 15% ~750 words
-
-- Describe implementation of your game, in particular highlighting the three areas of challenge in developing your game. 
-
-### Evaluation
-
-- 15% ~750 words
-
-- One qualitative evaluation (your choice) 
-
-- One quantitative evaluation (of your choice) 
-
-- Description of how code was tested. 
-
-### Process 
-
-- 15% ~750 words
-
-- Teamwork. How did you work together, what tools did you use. Did you have team roles? Reflection on how you worked together. 
-
-### Conclusion
-
-- 10% ~500 words
-
-- Reflect on project as a whole. Lessons learned. Reflect on challenges. Future work. 
+ 
 
 ### Contribution Statement
 

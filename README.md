@@ -24,6 +24,8 @@ Include a demo video of your game here (you don't have to wait until the end, yo
 | Week | Content |
 | --------- | -------- |
 | [Week1](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week1.md) | Research game and create a list of game|
+|[Week2](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week2.md)| |
+| Adding| |
 
 ## week1
 | Game Name | Game Mechanics | Advantages |

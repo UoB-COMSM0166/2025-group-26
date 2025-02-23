@@ -24,12 +24,12 @@ Our [Kanban](https://daffodil-louse-74e.notion.site/project-discussion-18f1bdec1
 
 ## Project Report
 
-# Introduction
+### Introduction
 
 - 5% ~250 words 
 - Describe your game, what is based on, what makes it novel? 
 
-# Requirements 
+### Requirements 
 
 1.Case Diagrams
 2.User Stories
@@ -40,7 +40,7 @@ Our [Kanban](https://daffodil-louse-74e.notion.site/project-discussion-18f1bdec1
 - 15% ~750 words
 - Use case diagrams, user stories. Early stages design. Ideation process. How did you decide as a team what to develop? 
 
-# Design
+### Design
 
 1.System architecture
 2.Class diagrams
@@ -49,24 +49,24 @@ Our [Kanban](https://daffodil-louse-74e.notion.site/project-discussion-18f1bdec1
 - 15% ~750 words 
 - System architecture. Class diagrams, behavioural diagrams. 
 
-# Implementation
+### Implementation
 
 - 15% ~750 words
 - Describe implementation of your game, in particular highlighting the three areas of challenge in developing your game. 
 
-# Evaluation
+### Evaluation
 
 - 15% ~750 words
 - One qualitative evaluation (your choice) 
 - One quantitative evaluation (of your choice) 
 - Description of how code was tested. 
 
-# Process 
+### Process 
 
 - 15% ~750 words
 - Teamwork. How did you work together, what tools did you use. Did you have team roles? Reflection on how you worked together. 
 
-# Conclusion
+### Conclusion
 
 - 10% ~500 words
 - Reflect on project as a whole. Lessons learned. Reflect on challenges. Future work.

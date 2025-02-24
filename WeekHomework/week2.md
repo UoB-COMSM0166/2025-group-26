@@ -27,7 +27,7 @@
 
 👉 **We chose Space shooter and Mario.**
 
-## 🤔 Thinking about the innovation component
+## 🤔 Thinking about The Innovation Component
 ### Space shooter 
 
 ### Mario 

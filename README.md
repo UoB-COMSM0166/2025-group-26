@@ -20,7 +20,6 @@ Our [Kanban](https://daffodil-louse-74e.notion.site/project-discussion-18f1bdec1
 |TSE YING CHEN| sw24863@bristol.ac.uk| Liamchenn
 |YU TING WU| am24417@bristol.ac.uk| ut125
 |CHENG HSUAN LEE| bo24397@bristol.ac.uk| Allison-sa
-- Group member 6, name, email, role
 
 ## Project Report
 

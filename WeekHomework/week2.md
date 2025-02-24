@@ -1,7 +1,7 @@
-### Drawing apps
+# Drawing apps
 🖌 [Paintng APP](https://editor.p5js.org/ut125/full/jm8rUqeXu)
 
-### Brainstorming ideas and Decide on TWO IDEAS
+# Brainstorming ideas and Decide on TWO IDEAS
 ## 🗝Critical Selection Criteria
 **Innovativeness:** Does the game offer a fresh gaming experience?
 **Playability:** Is the game easy to play but challenging?
@@ -23,7 +23,7 @@
 👉 **We chose Space shooter and Mario.**
 
 ## Thinking about the innovation component
-# Space shooter 
+### Space shooter 
 
-# Mario 
+### Mario 
 

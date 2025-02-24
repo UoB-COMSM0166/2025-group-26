@@ -78,6 +78,9 @@ Our game, Dukat Soul, is encouraged by a famous type of game, soulslike. This ty
 | --------- | -------- |
 |[Week1](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week1.md) | Research game and create a list of game|
 |[Week2](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week2.md)| |
+|[Week3](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week3.md)| |
+|[Week4](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week4.md)| |
+|[Week5](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week5.md)| |
 | Adding| |
 
 ## week3

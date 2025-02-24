@@ -1,18 +1,18 @@
-# Drawing Apps
+## Drawing Apps
 🖌 [Paintng APP](https://editor.p5js.org/ut125/full/jm8rUqeXu)
 
 
 
 
 
-# Brainstorming Ideas and Decide on TWO IDEAS
-## 🗝 Critical Selection Criteria
+## Brainstorming Ideas and Decide on TWO IDEAS
+### 🗝 Critical Selection Criteria
 **Innovativeness:** Does the game offer a fresh gaming experience?<br>
 **Playability:** Is the game easy to play but challenging?<br>
 **Market Attractiveness:** Does it meet the current game market trend?<br>
 **Technical Difficulty:** Can the game be completed within the development time?<br>
 
-## ⚖ Comparison Analysis
+### ⚖ Comparison Analysis
 |Game|Innovativeness|Playability|Market Attractiveness|Technical Difficulty|**average score**|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |Subway Surfers|3|5|4|3|3.75
@@ -27,13 +27,13 @@
 
 👉 **We chose Space shooter and Mario.**
 
-## 🤔 Thinking about The Innovation Component
-### Space Shooter 
+### 🤔 Thinking about The Innovation Component
+#### Space Shooter 
 ·Randomly generated levels and enemies<br>
 ·Character and weapon evolution system<br>
 ·Dynamic events and plots<br>
 
-### Mario 
+#### Mario 
 ·Mario + Soul-like<br>
 ·Death penalty<br>
 ·Hidden routes and shortcuts<br>

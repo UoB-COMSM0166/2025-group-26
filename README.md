@@ -76,11 +76,11 @@ Our game, Dukat Soul, is encouraged by a famous type of game, soulslike. This ty
 ### Weekly Homework Links
 | Week | Content |
 | --------- | -------- |
-|[Week1](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week1.md) | Research game and create a list of game|
-|[Week2](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week2.md)| 1. Drawing apps<br> 2. Brainstorming ideas for your game<br> 3. Decide on TWO IDEAS|
-|[Week3](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week3.md)| Paper prototype |
-|[Week4](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week4.md)| 1. A list of stakeholders<br> 2. Add your epics and user stories<br> 3. Write a brief (up to 300 words) reflection on what your team |
-|[Week5](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week5.md)| Draw up a class diagram (and sequence diagram)<br>|
+|[Week1](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week1.md) | Research game and create a list of game
+|[Week2](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week2.md)| 1. Drawing apps<br> 2. Brainstorming ideas for your game<br> 3. Decide on TWO IDEAS
+|[Week3](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week3.md)| Paper prototype 
+|[Week4](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week4.md)| 1. A list of stakeholders<br> 2. Add your epics and user stories<br> 3. Write a brief (up to 300 words) reflection on what your team 
+|[Week5](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week5.md)| 1.Draw up a class diagram (and sequence diagram)<br> 2.Planning poker
 | Adding| |
  
 

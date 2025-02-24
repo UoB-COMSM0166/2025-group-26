@@ -7,10 +7,10 @@
 
 # Brainstorming ideas and Decide on TWO IDEAS
 ## 🗝 Critical Selection Criteria
-**Innovativeness:** Does the game offer a fresh gaming experience?
-**Playability:** Is the game easy to play but challenging?
-**Market Attractiveness:** Does it meet the current game market trend?
-**Technical Difficulty:** Can the game be completed within the development time?
+**Innovativeness:** Does the game offer a fresh gaming experience?<br>
+**Playability:** Is the game easy to play but challenging?<br>
+**Market Attractiveness:** Does it meet the current game market trend?<br>
+**Technical Difficulty:** Can the game be completed within the development time?<br>
 
 ## ⚖ Comparison Analysis
 |Game|Innovativeness|Playability|Market Attractiveness|Technical Difficulty|**average score**|

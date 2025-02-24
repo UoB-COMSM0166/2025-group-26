@@ -1,8 +1,8 @@
 ## Drawing Apps
 🖌 [Paintng APP](https://editor.p5js.org/ut125/full/jm8rUqeXu)
-
-
-
+<br>
+<br>
+<br>
 
 
 ## Brainstorming Ideas and Decide on TWO IDEAS
@@ -11,6 +11,7 @@
 **Playability:** Is the game easy to play but challenging?<br>
 **Market Attractiveness:** Does it meet the current game market trend?<br>
 **Technical Difficulty:** Can the game be completed within the development time?<br>
+<br>
 
 ### ⚖ Comparison Analysis
 |Game|Innovativeness|Playability|Market Attractiveness|Technical Difficulty|**average score**|
@@ -26,6 +27,7 @@
 |Mario|5|4|4|5|4.5
 
 👉 **We chose Space shooter and Mario.**
+<br>
 
 ### 🤔 Thinking about The Innovation Component
 #### Space Shooter 

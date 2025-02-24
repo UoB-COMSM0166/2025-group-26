@@ -7,11 +7,11 @@
 
 📁 Your game lives in the [GameCode](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/Gamecode/Dukat%20Soul) folder, and is published using Github pages to the link above.
 
-Include a demo video of your game here (you don't have to wait until the end, you can insert a work in progress video)
+🎞 Include a demo video of your game here (you don't have to wait until the end, you can insert a work in progress video)
 
 📅 Our [Kanban](https://daffodil-louse-74e.notion.site/project-discussion-18f1bdec181b80ada206cdafc3035fcc)
 
-## Your Group
+## Your Group 🧍‍♂️👭👬
 ![IMG_2211 2](https://github.com/user-attachments/assets/1968bb52-32bb-43a1-8b22-b9d4c6253685)
 | NAME | EMAIL | ROLE |
 | --------- | -------- | -------- |
@@ -77,8 +77,7 @@ Our game, Dukat Soul, is encouraged by a famous type of game, soulslike. This ty
 | Week | Content |
 | --------- | -------- |
 |[Week1](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week1.md) | Research game and create a list of game|
-|[Week2](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week2.md)| Drawing apps  brainstorming ideas for your 
-game and decide on TWO IDEAS|
+|[Week2](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week2.md)| Drawing apps  brainstorming ideas for your game and decide on TWO IDEAS|
 |[Week3](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week3.md)| Paper prototype |
 |[Week4](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week4.md)| A list of stakeholders<br> Add your epics and user stories<br> Write a brief (up to 300 words) reflection on what your team |
 |[Week5](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week5.md)| |

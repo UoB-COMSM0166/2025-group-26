@@ -72,8 +72,8 @@ Our game, Dukat Soul, is encouraged by a famous type of game, soulslike. This ty
 - 10% ~500 words
 - Reflect on project as a whole. Lessons learned. Reflect on challenges. Future work.
 
-
-## Weekly Homework Links
+## Other Details
+### Weekly Homework Links
 | Week | Content |
 | --------- | -------- |
 |[Week1](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week1.md) | Research game and create a list of game|

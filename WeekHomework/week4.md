@@ -1,2 +1,2 @@
-[Discussion Notes](https://www.notion.so/week-4-class-discusstion-ae284070ac86431da74f15e76ad6ebeb)
+[Discussion Notes](https://www.notion.so/week-4-class-discusstion-ae284070ac86431da74f15e76ad6ebeb) <br>
 Continuing to organize...

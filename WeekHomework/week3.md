@@ -2,7 +2,7 @@
 Two kind of game:
 - 1.  Mario's Soul
      This game's prototype file name is ste weeks
- [![IMAGE ALT TEXT HERE](https://youtu.be/rEYfj8_VpYA)
+ [![Mario's Soul prototype](https://youtu.be/rEYfj8_VpYA)
 
      ![IMG_0520](https://github.com/user-attachments/assets/8086ee10-d070-4296-b2d2-aa84ff93d0d2)
 

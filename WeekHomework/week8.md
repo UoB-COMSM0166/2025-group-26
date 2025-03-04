@@ -1,29 +1,36 @@
 ## NASA TLX & SUS
-![下午2 18 2025-3-4的影像(8)](https://github.com/user-attachments/assets/204b635b-3990-48c5-becb-97c25ad6d340)
-![下午2 18 2025-3-4的影像(7)](https://github.com/user-attachments/assets/4e8451fd-10f5-4e02-88dc-3fb7ccb28e94)
-![下午2 18 2025-3-4的影像(6)](https://github.com/user-attachments/assets/cd55ee45-2d6d-4cc9-b4f3-bfaea3cfea55)
-![下午2 18 2025-3-4的影像(5)](https://github.com/user-attachments/assets/5338dead-ae9e-4fc6-8650-4892223b03a9)
-![下午2 18 2025-3-4的影像(4)](https://github.com/user-attachments/assets/db6516ae-174b-4a17-86a7-033b4bf22f4a)
-![下午2 18 2025-3-4的影像(3)](https://github.com/user-attachments/assets/05479901-518f-4ae2-9a16-253d6e1686ab)
-![下午2 18 2025-3-4的影像(2)](https://github.com/user-attachments/assets/ade0ff1b-78c3-449d-a5f7-9206b047d8a7)
-![下午2 18 2025-3-4的影像(1)](https://github.com/user-attachments/assets/ede44990-07c9-4838-9d54-e2a466d5b330)
-![下午2 17 2025-3-4的影像](https://github.com/user-attachments/assets/809bb551-f6b0-44df-b565-f9eb48b2a540)
-![下午2 17 2025-3-4的影像(11)](https://github.com/user-attachments/assets/502160f2-2aef-431c-8be6-4b3a6f313a25)
-![下午2 17 2025-3-4的影像(10)](https://github.com/user-attachments/assets/20d4991c-862f-4162-92e2-557d57fc4706)
-![下午2 17 2025-3-4的影像(9)](https://github.com/user-attachments/assets/8bb3ff38-09c3-4a75-9dce-f629da9a19d1)
-![下午2 17 2025-3-4的影像(8)](https://github.com/user-attachments/assets/c52872dc-4226-414e-9bd9-acace9e0c5bf)
-![下午2 17 2025-3-4的影像(7)](https://github.com/user-attachments/assets/5bd680be-494b-4805-ac4d-2d7ba05b534f)
-![下午2 17 2025-3-4的影像(6)](https://github.com/user-attachments/assets/cd381822-f7a8-43e2-9b56-18e0a50ce889)
-![下午2 17 2025-3-4的影像(5)](https://github.com/user-attachments/assets/3fdf571a-80a2-49ff-a88b-6761706340e0)
-![下午2 17 2025-3-4的影像(4)](https://github.com/user-attachments/assets/e01f0a4e-1b20-41ec-a755-521b6c15227d)
-![下午2 17 2025-3-4的影像(3)](https://github.com/user-attachments/assets/69b7f9f2-aaa8-4f45-88c8-8be17fa2c5ed)
-![下午2 17 2025-3-4的影像(2)](https://github.com/user-attachments/assets/5bb87adb-0092-4615-a0b8-c0d2410e8526)
-![下午2 17 2025-3-4的影像(1)](https://github.com/user-attachments/assets/41374465-6859-4b14-aae5-48741de72549)
-![下午2 18 2025-3-4的影像](https://github.com/user-attachments/assets/0aa7d70f-b19c-4248-bc7b-d0db71ff44fe)
+1
+![1D](https://github.com/user-attachments/assets/4bf37a37-7d9e-425c-b5ee-b7591ce5edff)
+![1](https://github.com/user-attachments/assets/eddc8b47-13f3-4610-a714-81c8a04f6d06)
+![1E](https://github.com/user-attachments/assets/761d0711-ce53-4c88-b6e7-bfd28046d20f)
+2
+![2D](https://github.com/user-attachments/assets/1bb46167-e82a-4ff5-86d1-8be0b1ad0a21)
+![2](https://github.com/user-attachments/assets/ae63ae50-67dc-4c9e-92ec-1e4d05fb271c)
+![2E](https://github.com/user-attachments/assets/c60800d8-aae2-455d-83d7-0f43a2ca18b5)
+3
+![3D](https://github.com/user-attachments/assets/7b722c4d-034d-4924-8dcf-eda68cd7c659)
+![3](https://github.com/user-attachments/assets/023e8928-8e7f-4eba-9106-470e17a501ad)
+![3E](https://github.com/user-attachments/assets/607790b2-7b96-49b3-a2f7-3517c2c794ec)
+4
+![4D](https://github.com/user-attachments/assets/0436eaa1-077a-4750-8288-f1ed54db010f)
+![4](https://github.com/user-attachments/assets/0bdf13e3-a76a-4ea0-8ed4-ddeeeebd38d1)
+![4E](https://github.com/user-attachments/assets/4c84f0ba-3e00-41fb-820b-30cd208b5070)
+5
+![5](https://github.com/user-attachments/assets/53b61e43-72e6-47ca-8456-0ac4686330fb)
+![5ED](https://github.com/user-attachments/assets/66702edd-05b3-45f8-85b4-a35bbaaf6f21)
+6
+![6](https://github.com/user-attachments/assets/e1b2f703-2f27-42bb-8104-95371bd93a10)
+![6ED](https://github.com/user-attachments/assets/ebb48843-8fe5-4207-a4b4-64c1b89df63f)
+7
+![7](https://github.com/user-attachments/assets/833134fc-e15f-48bb-9752-ec1aceee9999)
+![7ED](https://github.com/user-attachments/assets/c9a30811-bb67-43ab-8d58-db3d1bc1f58b)
+8
+![8](https://github.com/user-attachments/assets/2cad1d15-c0ed-45a6-a309-af503c22faa7)
+![8ED](https://github.com/user-attachments/assets/79e0f2f1-e8b1-433a-aa17-30484e021632)
 
 ## User Feedback:
-A user operation tutorial needs to be added at the start of the game.
-The purpose of the canned strip (罐頭條) needs to be explained (possibly with an animation).
-The upgrade page appears and disappears too abruptly. Returning to the game often leads to immediate death (consider adding a countdown like 3-2-1 before resuming).
-The hidden level portal and the activation button are too close together, causing accidental clicks.
-There are too many function buttons, which might need to be consolidated. The initial button layout may also need adjustments, as it doesn't feel intuitive.
+1. A user operation tutorial needs to be added at the start of the game.<br>
+2. The purpose of the canned strip (罐頭條) needs to be explained (possibly with an animation).<br>
+3. The upgrade page appears and disappears too abruptly. Returning to the game often leads to immediate death (consider adding a countdown like 3-2-1 before resuming).<br>
+4. The hidden level portal and the activation button are too close together, causing accidental clicks.<br>
+5. There are too many function buttons, which might need to be consolidated. The initial button layout may also need adjustments, as it doesn't feel intuitive.<br>

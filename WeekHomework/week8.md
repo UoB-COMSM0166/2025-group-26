@@ -34,7 +34,7 @@ E = easy mode<br>
 
 ## User Feedback:
 1. A user operation tutorial needs to be added at the start of the game.<br>
-2. The purpose of the canned strip (罐頭條) needs to be explained (possibly with an animation).<br>
+2. The purpose of the canned strip needs to be explained (possibly with an animation).<br>
 3. The upgrade page appears and disappears too abruptly. Returning to the game often leads to immediate death (consider adding a countdown like 3-2-1 before resuming).<br>
 4. The hidden level portal and the activation button are too close together, causing accidental clicks.<br>
 5. There are too many function buttons, which might need to be consolidated. The initial button layout may also need adjustments, as it doesn't feel intuitive.<br>

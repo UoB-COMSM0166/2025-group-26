@@ -1,7 +1,6 @@
 ## Game Details:
 
 ### 1.Hidden spike<br>
-![Imgur Album](https://i.imgur.com/QJE4ega.jpg)
 [View full album on Imgur](https://imgur.com/a/QJE4ega)
 
 ### 2. Chasing Spikes<br>

@@ -11,3 +11,9 @@ Once the player presses the start button, a row of sharp spikes will begin movin
 ### 3. Portal <br>
 ![未命名的影片_ 使用 Clipchamp 製作](https://github.com/user-attachments/assets/4a4d7bea-0c27-4cf4-a2a9-6fbd98de89d1)<br>
 Based on the game's storyline requirements, our map is designed as an open-world system. Players can use the teleportation interface to return to any level of their choice, complete all challenges, and collect the necessary items.
+
+### 4. 
+
+### 5. Level system and buff <br>
+![doublejumpaf-ezgif com-crop](https://github.com/user-attachments/assets/78d522f6-e5d3-4873-8a27-f07fe00fd9ba)
+The level system empowers players to explore the secrets of the game. 

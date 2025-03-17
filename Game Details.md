@@ -15,5 +15,5 @@ Based on the game's storyline requirements, our map is designed as an open-world
 ### 4. 
 
 ### 5. Level system and buff <br>
-![doublejumpaf-ezgif com-crop](https://github.com/user-attachments/assets/78d522f6-e5d3-4873-8a27-f07fe00fd9ba)
+![doublejumpaf-ezgif com-crop](https://github.com/user-attachments/assets/78d522f6-e5d3-4873-8a27-f07fe00fd9ba)<br>
 The level system empowers players to explore the secrets of the game. 

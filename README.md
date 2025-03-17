@@ -11,6 +11,8 @@
 
 📅 Our [Kanban](https://daffodil-louse-74e.notion.site/project-discussion-18f1bdec181b80ada206cdafc3035fcc)
 
+📑 [Game details](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/Game%20Details.md)
+
 ## Your Group 🧍‍♂️👭👬
 ![IMG_2211 2](https://github.com/user-attachments/assets/1968bb52-32bb-43a1-8b22-b9d4c6253685)
 | NAME | EMAIL | ROLE |

@@ -18,8 +18,9 @@ _3. Extreme Challenge_
   - Chasing Spikes: Once triggered, deadly spikes rush toward the player, requiring quick reflexes to escape.
   - Moving Traps & Platforms: Some platforms move unexpectedly when players step on them, turning into hidden traps.
 
-_4. Progression System:
-    Experience & Upgrades: Players collect cans to level up and unlock new abilities, such as increasing character size or double jumping, whereas traditional games which growth is mainly based on power-ups.
+_4. Progression System_
+    Experience & Upgrades: 
+  - Players collect cans to level up and unlock new abilities, such as increasing character size or double jumping, whereas traditional games which growth is mainly based on power-ups.
    
 ### 1.Hidden spikes<br>
 ![未命名的影片_ 使用 Clipchamp 製作 (1)](https://github.com/user-attachments/assets/231901a7-d750-4e93-aa54-a90b82c08756)<br>

@@ -24,7 +24,7 @@ _4. Progression System_
    
 ### 1.Hidden spikes<br>
 ![未命名的影片_ 使用 Clipchamp 製作 (1)](https://github.com/user-attachments/assets/231901a7-d750-4e93-aa54-a90b82c08756)<br>
-Goal : Forcing players to memorize the map
+Goal : Forcing players to memorize the map<br>
 Calculate the distance between the player and the spike. The spike will only appear when the player gets close. If the player touches it, they will die immediately.
 
 ### 2. Chasing Spikes<br>

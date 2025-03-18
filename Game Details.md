@@ -2,18 +2,18 @@
 Our game combines the classic Mario-style platforming framework, the high difficulty and punishment mechanics of Souls-like games, and an open-world level design, creating a unique gameplay experience unlike any before.
 
 Unlike traditional platformers, our game introduces several key innovations:
-1. Death Punishment System Inspired by Souls-like Games
+
+_1. Death Punishment System Inspired by Souls-like Games_
    - Players can respawn infinitely, just like in Souls-like games.
    - Dying does not end the game, but each time a player dies, their collected coins are halved, forcing them to play more cautiously instead of feel free retrying.
    - This adds strategy, making players decide when to take risks and when to play it safe, unlike traditional platformers with limited lives.
      
-2._Open-World Level Design_
+_2.Open-World Level Design_
   - Unlike classic platformers that follow a linear progression, our game allows for free exploration and teleportation between levels.
   - They can go back to earlier levels, find important items, or level up, making the game more interactive instead of just moving forward.
     
-3. Extreme Challenge
+_3. Extreme Challenge_
    Our game is designed to test players' patience and reaction speed, with traps that keep them on their toes:
-
   - Hidden Spikes : Only appear when players get close, leading to instant death and forcing them to memorize the map.
   - Chasing Spikes: Once triggered, deadly spikes rush toward the player, requiring quick reflexes to escape.
   - Moving Traps & Platforms: Some platforms move unexpectedly when players step on them, turning into hidden traps.

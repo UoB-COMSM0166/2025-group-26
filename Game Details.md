@@ -29,12 +29,12 @@ Calculate the distance between the player and the spike. The spike will only app
 
 ### 2. Chasing Spikes<br>
 ![Chasing Spikes](https://github.com/user-attachments/assets/d3f80b6d-93bd-4305-8911-750e8cd1b418)<br>
-Goal: Enable players to react extremely quickly
+Goal: Enable players to react extremely quickly<br>
 Once the player presses the start button, a row of sharp spikes will begin moving rapidly from the left side of the screen to the right. If the player gets caught by the spikes, they will die instantly.
 
 ### 3. Movable Platform
 ![Movable Block](https://github.com/user-attachments/assets/67976fc6-dcc9-4c87-b720-7e4fed49001f)
-Goal : unexpected trap
+Goal : unexpected trap<br>
 In hidden levels and certain other parts of the game, there are movable blocks that are triggered after jumping, serving as traps to increase the game's difficulty.
 
 

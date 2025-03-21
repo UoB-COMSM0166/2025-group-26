@@ -10,7 +10,7 @@ The tutorial includes:
 - Teleport system: We added portals that let players quickly move between levels to save time<br>
 After completing the tutorial, the player officially starts the game. The main feature of this game is that it challenges the player's memory and skills. Some levels include disappearing platforms, making the game more difficult and interesting. This game is great for players who enjoy challenges or are trying a souls-like game for the first time.
 
-- 1.  Mario's Soul: prototype file name is ste weeks
+**Mario's Soul: prototype file name is ste weeks**
 [![Watch the video](https://img.youtube.com/vi/rEYfj8_VpYA/maxresdefault.jpg)](https://youtu.be/rEYfj8_VpYA)
 
 

@@ -5,9 +5,9 @@ The first game is inspired by the classic Mario gameplay and combines elements f
 
 The tutorial includes:
 
-Basic controls (such as moving left, right, and jumping)
-Upgrade system: Players can collect coins to gain upgrade points. After reaching a certain amount, they can choose abilities like double jump or more bullets
-Teleport system: We added portals that let players quickly move between levels to save time
+- Basic controls (such as moving left, right, and jumping)
+- Upgrade system: Players can collect coins to gain upgrade points. After reaching a certain amount, they can choose abilities like double jump or more bullets
+- Teleport system: We added portals that let players quickly move between levels to save time<br>
 After completing the tutorial, the player officially starts the game. The main feature of this game is that it challenges the player's memory and skills. Some levels include disappearing platforms, making the game more difficult and interesting. This game is great for players who enjoy challenges or are trying a souls-like game for the first time.
 
 - 1.  Mario's Soul: prototype file name is ste weeks

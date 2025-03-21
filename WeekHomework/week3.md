@@ -12,6 +12,8 @@ After completing the tutorial, the player officially starts the game. The main f
 
 **Mario's Soul-prototype**: youtube
 [![Watch the video](https://img.youtube.com/vi/rEYfj8_VpYA/maxresdefault.jpg)](https://youtu.be/rEYfj8_VpYA)
+[Digital Prototype](https://www.figma.com/proto/yzQuA2w7aYiqZwbHmeTQfo/Game?node-id=1-3&p=f&t=X0EZQJVRzmC3TNk5-0&scaling=contain&content-scaling=fixed&page-id=0%3A1)
+
 
 
      ![IMG_0520](https://github.com/user-attachments/assets/8086ee10-d070-4296-b2d2-aa84ff93d0d2)
@@ -35,6 +37,3 @@ After completing the tutorial, the player officially starts the game. The main f
 
 **Final plan**<br>
 Finally, we believe the first game offers more innovative gameplay and greater potential for development. Therefore, we have decided to focus on the first game as our main project moving forward.
-
-
-[Online Prototype](https://www.figma.com/proto/yzQuA2w7aYiqZwbHmeTQfo/Game?node-id=1-3&p=f&t=X0EZQJVRzmC3TNk5-0&scaling=contain&content-scaling=fixed&page-id=0%3A1)

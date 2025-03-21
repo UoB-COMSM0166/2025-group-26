@@ -1,7 +1,16 @@
 ## week3
-Two kind of game:
-- 1.  Mario's Soul
-     This game's prototype file name is ste weeks
+After many discussions and selections, we decided to further develop the following two games.
+
+The first game is inspired by the classic Mario gameplay and combines elements from “souls-like” games. Before starting, players can choose whether to go through a tutorial or jump straight into the game.
+
+The tutorial includes:
+
+Basic controls (such as moving left, right, and jumping)
+Upgrade system: Players can collect coins to gain upgrade points. After reaching a certain amount, they can choose abilities like double jump or more bullets
+Teleport system: We added portals that let players quickly move between levels to save time
+After completing the tutorial, the player officially starts the game. The main feature of this game is that it challenges the player's memory and skills. Some levels include disappearing platforms, making the game more difficult and interesting. This game is great for players who enjoy challenges or are trying a souls-like game for the first time.
+
+- 1.  Mario's Soul: prototype file name is ste weeks
 [![Watch the video](https://img.youtube.com/vi/rEYfj8_VpYA/maxresdefault.jpg)](https://youtu.be/rEYfj8_VpYA)
 
 

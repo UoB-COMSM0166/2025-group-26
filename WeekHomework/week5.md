@@ -2,21 +2,21 @@
 Continuing to organize
 # Planing Poker
 ## 1st Story
-### As a fans of computer games. I want to play a game that can use physical keyboard to operate game.  It'll make it more real and exciting for me. So that, I play this game to experience that.
-  1st Iteration\
-    ![round 1](attachment:28f485e6-c5a9-466a-998f-1749bdb8d0e7:image.png)\
-    **Avg**: 6\
-    \
-    **Discussion**:\
-    Designing a game with simple controls is easy, but what's more important is how engaging it is and how much players enjoy it. In this round, we’re focusing on the challenges of designing a game that truly captivates players, rather than just being easy to operate.\
-    \
-  2nd Iteration\
-    ![round 2](attachment:0a3ec7a9-c02b-4a9a-9eb8-7a109cf0f14d:image.png)\
-    **Avg**: 5.8\
-    \
-    **Discussion**:\
-    \
-    \
+As a fans of computer games. I want to play a game that can use physical keyboard to operate game.  It'll make it more real and exciting for me. So that, I play this game to experience that.  
+
+**1st Iteration**  
+![1st story R1](https://github.com/user-attachments/assets/dcbd3b63-3a4a-4be7-8bdd-edafd6e806ec)  
+**Avg**: 6\
+**Discussion**:  
+Designing a game with simple controls is easy, but what's more important is how engaging it is and how much players enjoy it. In this round, we’re focusing on the challenges of designing a game that truly captivates players, rather than just being easy to operate.\
+    
+**2nd Iteration**  
+![1st story R2](https://github.com/user-attachments/assets/b742e72b-5662-4014-9c52-36fe429f85fa)  
+**Avg**: 5.8\
+**Discussion**:  
+In the second round, everyone gave more similar scores in the user story. This shows that after the discussion, our members realized that player experience is an important aspect to consider when designing a game.
+\
+\
 
 
 

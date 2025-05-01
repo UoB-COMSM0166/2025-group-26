@@ -91,7 +91,10 @@ Our team used GitHub for version control and collaborative development. Each mem
 During the early planning phase, we used UMLetino to create class diagrams and sequence diagrams. These visual tools helped team members clearly understand the required classes, methods, and their interactions. By visualizing the system structure, we were able to identify dependencies and logic flows more effectively, which helped reduce structural confusion or logic conflicts later in the development process.<br><br>
     
 **2.2	Task and Project Management<br>**
-We used a Kanban system to manage our tasks, breaking the project down into weekly achievable units. Tasks were categorized into three columns: “To Do,” “Doing,” and “Done.” Each task included a due date and a brief description, which helped team members clearly understand responsibilities and track overall progress.<br>
+We used a Kanban system to manage our tasks, breaking the project down into weekly achievable units. Tasks were categorized into three columns: “Not started,” “In progress,” and “Done.” Each task included a due date and a brief description, which helped team members clearly understand responsibilities and track overall progress.<br>
+<img width="906" alt="截圖 2025-05-01 晚上7 27 02" src="https://github.com/user-attachments/assets/f435e196-7311-4e78-8a01-a80a1d3ef00b" />
+
+
 
 When prioritizing tasks, we considered both their value and the effort required. For example, map design was critical to our game because the placement of enemies, items, and obstacles was manually planned rather than randomly generated. Even when other teams had already started coding, we chose to focus on designing the maps first to ensure logical consistency and a coherent gameplay experience.
 Additionally, we used story points to estimate the workload for each sprint. All team members participated in the discussion to ensure a shared understanding of the effort required for each task. This approach helped maintain a sustainable development pace throughout the project.
@@ -123,7 +126,7 @@ Another visual designer, focused on designing enemy characters, UI elements, and
 
 #### 4.Team Reflection and Improvement<br>
 **4.1	Attitude and Communication**<br>
-Throughout this project, we realized that maintaining a positive and proactive attitude was crucial for effective teamwork, especially toward the end of the semester when academic workloads and exam pressure increased. Every team member demonstrated a strong sense of responsibility, actively taking on tasks, participating in discussions, and completing work on time. This contributed to a productive and comfortable team atmosphere. While such as WeChat and online meetings offered convenience, we found that in-person meetings were significantly more effective when addressing complex development topics—such as designing game mechanics and level flow. Face-to-face discussions allowed us to clarify misunderstandings more quickly and coordinate our progress more effectively. For this reason, we chose to rely primarily on in-person meetings, it greatly improved the quality and efficiency of our collaboration.
+Throughout this project, we realized that maintaining a positive and proactive attitude was crucial for effective teamwork, especially toward the end of the semester when academic workloads and exam pressure increased. Every team member demonstrated a strong sense of responsibility, actively taking on tasks, participating in discussions, and completing work on time. This contributed to a productive and comfortable team atmosphere. While such as WeChat and online meetings offered convenience, we found that in-person meetings were significantly more effective when addressing complex development topics—such as designing game mechanics and level flow. Face-to-face discussions allowed us to clarify misunderstandings more quickly and coordinate our progress more effectively. For this reason, we chose to rely primarily on in-person meetings, it greatly improved the quality and efficiency of our collaboration.<br>
 **4.2	Challenges in Task Management and Workflow**<br>
 At the beginning of the project, our goal was to create a 2D side-scrolling game that could keep players engaged for more than 15 minutes. While this vision was both ambitious and inspiring, our team lacked practical experience and accurate workload estimation. As a result, our initial plan was overly broad, making it difficult to assess whether we could complete the project on time or meet course requirements.<br>
 Through learning agile development and the concept of story points, we gradually understood how to break down tasks and apply the sprint framework effectively. For example, we originally planned to design four levels with increasing difficulty. However, after realizing the course’s main focus was on code structure and innovative gameplay mechanics, we adjusted our priorities and scaled down the scope. This allowed us to concentrate our efforts on the aspects most relevant to the course objectives.<br>
@@ -134,7 +137,6 @@ At the beginning of the project, we were unfamiliar with key course concepts suc
 However, through ongoing team discussions, we gradually came to understand the value of these concepts in shaping project goals and design direction. Therefore, by the mid-stage of development, we adjusted our overall game structure and design strategies.<br>
 
 We faced technical issues during development, such as objects not persisting between side-scrolling levels. To address this, we used pair programming—one person coded while the other debugged in real time. This improved efficiency and teamwork, allowing us to solve the problem effectively.<br>
-
 
 
 

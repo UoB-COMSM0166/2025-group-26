@@ -85,9 +85,9 @@ Overall, our structured yet flexible communication approach played a key role in
 
 #### 2.	Tools and Collaboration Platforms <br>
 **2.1	Version Control and Collaborative Development<br>**
-    A.	GitHub: 
+    - GitHub: 
        Our team used GitHub for version control and collaborative development. Each member had their own folder and branch, allowing  them to work independently before merging into the main branch. This not only ensured code quality but also reduced communication overhead. In addition to code, other project-related materials such as game design documents, detailed game mechanics, user feedback (e.g., NASA-TLX, SUS), and class diagrams were also managed via GitHub. This helped maintain data consistency and traceability, allowing team members to track changes clearly and improving overall development efficiency and project transparency.<br><br>
-    B.	UMLetino: <br>
+    - UMLetino: <br>
     During the early planning phase, we used UMLetino to create class diagrams and sequence diagrams. These visual tools helped team members clearly understand the required classes, methods, and their interactions. By visualizing the system structure, we were able to identify dependencies and logic flows more effectively, which helped reduce structural confusion or logic conflicts later in the development process.<br><br>
     
 **2.2	Task and Project Management<br>**
@@ -106,11 +106,11 @@ The main tools we used include:<br>
 
 ---
 **3.	Team Roles and Responsibilities**<br>
-•	Jianrun Han: Lead programmer responsible for the overall code structure and the implementation of most core game mechanics.<br>
-•	Tse Ying Chen: One of the gameplay designers, responsible for designing the difficulty curve and core logic of the Souls-like game system.<br>
-•	Kai Wu: Also a gameplay designer, responsible for planning the content of each level and developing the upgrade interface.<br>
-•	Yu Ting Wu: One of the visual designers, primarily responsible for drawing the main character, cover art, and environment design.<br>
-•	Cheng Hsuan Lee: Another visual designer, focused on designing enemy characters, UI elements, and background scenes.<br>
+- Jianrun Han: Lead programmer responsible for the overall code structure and the implementation of most core game mechanics.<br>
+- Tse Ying Chen: One of the gameplay designers, responsible for designing the difficulty curve and core logic of the Souls-like game system.<br>
+- Kai Wu: Also a gameplay designer, responsible for planning the content of each level and developing the upgrade interface.<br>
+- Yu Ting Wu: One of the visual designers, primarily responsible for drawing the main character, cover art, and environment design.<br>
+- Cheng Hsuan Lee: Another visual designer, focused on designing enemy characters, UI elements, and background scenes.<br>
 
 
 

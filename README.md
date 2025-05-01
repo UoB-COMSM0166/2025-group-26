@@ -85,10 +85,9 @@ Overall, our structured yet flexible communication approach played a key role in
 
 #### 2.	Tools and Collaboration Platforms <br>
 **2.1	Version Control and Collaborative Development<br>**
-    - GitHub: 
-       Our team used GitHub for version control and collaborative development. Each member had their own folder and branch, allowing  them to work independently before merging into the main branch. This not only ensured code quality but also reduced communication overhead. In addition to code, other project-related materials such as game design documents, detailed game mechanics, user feedback (e.g., NASA-TLX, SUS), and class diagrams were also managed via GitHub. This helped maintain data consistency and traceability, allowing team members to track changes clearly and improving overall development efficiency and project transparency.<br><br>
-    - UMLetino: <br>
-    During the early planning phase, we used UMLetino to create class diagrams and sequence diagrams. These visual tools helped team members clearly understand the required classes, methods, and their interactions. By visualizing the system structure, we were able to identify dependencies and logic flows more effectively, which helped reduce structural confusion or logic conflicts later in the development process.<br><br>
+- GitHub: Our team used GitHub for version control and collaborative development. Each member had their own folder and branch, allowing  them to work independently before merging into the main branch. This not only ensured code quality but also reduced communication overhead. In addition to code, other project-related materials such as game design documents, detailed game mechanics, user feedback (e.g., NASA-TLX, SUS), and class diagrams were also managed via GitHub. This helped maintain data consistency and traceability, allowing team members to track changes clearly and improving overall development efficiency and project transparency.<br><br>
+- UMLetino: <br>
+During the early planning phase, we used UMLetino to create class diagrams and sequence diagrams. These visual tools helped team members clearly understand the required classes, methods, and their interactions. By visualizing the system structure, we were able to identify dependencies and logic flows more effectively, which helped reduce structural confusion or logic conflicts later in the development process.<br><br>
     
 **2.2	Task and Project Management<br>**
 We used a Kanban system to manage our tasks, breaking the project down into weekly achievable units. Tasks were categorized into three columns: “To Do,” “Doing,” and “Done.” Each task included a due date and a brief description, which helped team members clearly understand responsibilities and track overall progress.<br>
@@ -105,12 +104,31 @@ The main tools we used include:<br>
 - Figma: Used to build interactive prototypes, which allowed us to simulate the game interface during user testing. It also helped the team review layouts in real time and collaborate efficiently during the design refinement process.<br>
 
 ---
-**3.	Team Roles and Responsibilities**<br>
+####**3.	Team Roles and Responsibilities**<br>
 - Jianrun Han: Lead programmer responsible for the overall code structure and the implementation of most core game mechanics.<br>
 - Tse Ying Chen: One of the gameplay designers, responsible for designing the difficulty curve and core logic of the Souls-like game system.<br>
 - Kai Wu: Also a gameplay designer, responsible for planning the content of each level and developing the upgrade interface.<br>
 - Yu Ting Wu: One of the visual designers, primarily responsible for drawing the main character, cover art, and environment design.<br>
 - Cheng Hsuan Lee: Another visual designer, focused on designing enemy characters, UI elements, and background scenes.<br>
+
+####**4.	Team Reflection and Improvement**<br>
+**4.1	Attitude and Communication**<br>
+Throughout this project, we realized that maintaining a positive and proactive attitude was crucial for effective teamwork, especially toward the end of the semester when academic workloads and exam pressure increased. Every team member demonstrated a strong sense of responsibility, actively taking on tasks, participating in discussions, and completing work on time. This contributed to a productive and comfortable team atmosphere. While such as WeChat and online meetings offered convenience, we found that in-person meetings were significantly more effective when addressing complex development topics—such as designing game mechanics and level flow. Face-to-face discussions allowed us to clarify misunderstandings more quickly and coordinate our progress more effectively. For this reason, we chose to rely primarily on in-person meetings, it greatly improved the quality and efficiency of our collaboration.
+**4.2	Challenges in Task Management and Workflow**<br>
+At the beginning of the project, our goal was to create a 2D side-scrolling game that could keep players engaged for more than 15 minutes. While this vision was both ambitious and inspiring, our team lacked practical experience and accurate workload estimation. As a result, our initial plan was overly broad, making it difficult to assess whether we could complete the project on time or meet course requirements.<br>
+Through learning agile development and the concept of story points, we gradually understood how to break down tasks and apply the sprint framework effectively. For example, we originally planned to design four levels with increasing difficulty. However, after realizing the course’s main focus was on code structure and innovative gameplay mechanics, we adjusted our priorities and scaled down the scope. This allowed us to concentrate our efforts on the aspects most relevant to the course objectives.<br>
+
+**4.3	Challenges and Learning During Development and Design**<br>
+At the beginning of the project, we were unfamiliar with key course concepts such as prototypes, stakeholders, and sustainability. Although instructor encouraged us to apply these ideas to the game development process, we initially struggled to do so effectively.<br>
+
+However, through ongoing team discussions, we gradually came to understand the value of these concepts in shaping project goals and design direction. Therefore, by the mid-stage of development, we adjusted our overall game structure and design strategies.<br>
+
+We faced technical issues during development, such as objects not persisting between side-scrolling levels. To address this, we used pair programming—one person coded while the other debugged in real time. This improved efficiency and teamwork, allowing us to solve the problem effectively.<br>
+
+
+
+
+
 
 
 

@@ -75,7 +75,7 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 - 15% ~750 words
 - Teamwork. How did you work together, what tools did you use. Did you have team roles? Reflection on how you worked together.
 
-##1.	Collaboration and Communication**<br>
+## 1.	Collaboration and Communication<br>
 In this game development project, we adopted an agile development approach to ensure steady progress and high quality. We used a hybrid communication model, with in-person meetings as the main method and online meetings as a supplement, to maintain effective teamwork.<br>
 
 Specifically, we used our Tuesday class time each week to complete team tasks, and held face-to-face team meetings every Saturday from 10 AM to 12 PM. These meetings included progress updates, to-do reviews, workload evaluation, and planning for the next sprint. We also valued user experience, so we conducted two rounds of user testing—one in the middle of the project and one near the end—using the feedback to continuously improve gameplay.<br>

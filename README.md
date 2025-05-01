@@ -75,7 +75,7 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 - 15% ~750 words
 - Teamwork. How did you work together, what tools did you use. Did you have team roles? Reflection on how you worked together.
 
-## 1.	Collaboration and Communication<br>
+#### 1.	Collaboration and Communication<br>
 In this game development project, we adopted an agile development approach to ensure steady progress and high quality. We used a hybrid communication model, with in-person meetings as the main method and online meetings as a supplement, to maintain effective teamwork.<br>
 
 Specifically, we used our Tuesday class time each week to complete team tasks, and held face-to-face team meetings every Saturday from 10 AM to 12 PM. These meetings included progress updates, to-do reviews, workload evaluation, and planning for the next sprint. We also valued user experience, so we conducted two rounds of user testing—one in the middle of the project and one near the end—using the feedback to continuously improve gameplay.<br>
@@ -85,6 +85,15 @@ For urgent or unclear issues, we used Microsoft Teams to hold quick online meeti
 For weekly meeting notes and task planning, we used Notion to keep records. The platform not only offers great flexibility for customizing layouts and content, but also allows all team members to access a shared workspace. This made it easy for us to track progress and reflect on our work. For daily communication, we used WeChat to share ideas, provide updates and feedback, and ask for help when needed. This allowed us to maintain smooth and efficient communication throughout the project.<br>
 
 Overall, our structured yet flexible communication approach played a key role in keeping the team aligned, solving problems quickly, and delivering the project successfully on time.<br>
+
+#### 2.	Tools and Collaboration Platforms <br>
+2.1	Version Control and Collaborative Development<br>
+A.	GitHub: 
+Our team used GitHub for version control and collaborative development. Each member had their own folder and branch, allowing them to work independently before merging into the main branch. This not only ensured code quality but also reduced communication overhead. In addition to code, other project-related materials such as game design documents, detailed game mechanics, user feedback (e.g., NASA-TLX, SUS), and class diagrams were also managed via GitHub. This helped maintain data consistency and traceability, allowing team members to track changes clearly and improving overall development efficiency and project transparency.<br><br>
+B.	UMLetino: <br>
+During the early planning phase, we used UMLetino to create class diagrams and sequence diagrams. These visual tools helped team members clearly understand the required classes, methods, and their interactions. By visualizing the system structure, we were able to identify dependencies and logic flows more effectively, which helped reduce structural confusion or logic conflicts later in the development process.<br>
+
+
 
 
 ### Conclusion

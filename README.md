@@ -71,6 +71,7 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 - Description of how code was tested. 
 
 ### Process 
+---
 #### 1.	Collaboration and Communication<br>
 In this game development project, we adopted an agile development approach to ensure steady progress and high quality. We used a hybrid communication model, with in-person meetings as the main method and online meetings as a supplement, to maintain effective teamwork.<br>
 
@@ -81,13 +82,21 @@ For urgent or unclear issues, we used Microsoft Teams to hold quick online meeti
 For weekly meeting notes and task planning, we used Notion to keep records. The platform not only offers great flexibility for customizing layouts and content, but also allows all team members to access a shared workspace. This made it easy for us to track progress and reflect on our work. For daily communication, we used WeChat to share ideas, provide updates and feedback, and ask for help when needed. This allowed us to maintain smooth and efficient communication throughout the project.<br>
 
 Overall, our structured yet flexible communication approach played a key role in keeping the team aligned, solving problems quickly, and delivering the project successfully on time.<br>
+---
 
 #### 2.	Tools and Collaboration Platforms <br>
-  2.1	Version Control and Collaborative Development<br>
+**2.1	Version Control and Collaborative Development<br>**
     A.	GitHub: 
        Our team used GitHub for version control and collaborative development. Each member had their own folder and branch, allowing  them to work independently before merging into the main branch. This not only ensured code quality but also reduced communication overhead. In addition to code, other project-related materials such as game design documents, detailed game mechanics, user feedback (e.g., NASA-TLX, SUS), and class diagrams were also managed via GitHub. This helped maintain data consistency and traceability, allowing team members to track changes clearly and improving overall development efficiency and project transparency.<br><br>
     B.	UMLetino: <br>
-    During the early planning phase, we used UMLetino to create class diagrams and sequence diagrams. These visual tools helped team members clearly understand the required classes, methods, and their interactions. By visualizing the system structure, we were able to identify dependencies and logic flows more effectively, which helped reduce structural confusion or logic conflicts later in the development process.<br>
+    During the early planning phase, we used UMLetino to create class diagrams and sequence diagrams. These visual tools helped team members clearly understand the required classes, methods, and their interactions. By visualizing the system structure, we were able to identify dependencies and logic flows more effectively, which helped reduce structural confusion or logic conflicts later in the development process.<br><br>
+    
+**2.2	Task and Project Management<br>**
+We used a Kanban system to manage our tasks, breaking the project down into weekly achievable units. Tasks were categorized into three columns: “To Do,” “Doing,” and “Done.” Each task included a due date and a brief description, which helped team members clearly understand responsibilities and track overall progress.<br>
+
+When prioritizing tasks, we considered both their value and the effort required. For example, map design was critical to our game because the placement of enemies, items, and obstacles was manually planned rather than randomly generated. Even when other teams had already started coding, we chose to focus on designing the maps first to ensure logical consistency and a coherent gameplay experience.
+Additionally, we used story points to estimate the workload for each sprint. All team members participated in the discussion to ensure a shared understanding of the effort required for each task. This approach helped maintain a sustainable development pace throughout the project.
+
 
 
 

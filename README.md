@@ -84,7 +84,6 @@ For weekly meeting notes and task planning, we used Notion to keep records. The 
 Overall, our structured yet flexible communication approach played a key role in keeping the team aligned, solving problems quickly, and delivering the project successfully on time.<br>
 
 #### 2.	Tools and Collaboration Platforms <br>
----
 **2.1	Version Control and Collaborative Development<br>**
     A.	GitHub: 
        Our team used GitHub for version control and collaborative development. Each member had their own folder and branch, allowing  them to work independently before merging into the main branch. This not only ensured code quality but also reduced communication overhead. In addition to code, other project-related materials such as game design documents, detailed game mechanics, user feedback (e.g., NASA-TLX, SUS), and class diagrams were also managed via GitHub. This helped maintain data consistency and traceability, allowing team members to track changes clearly and improving overall development efficiency and project transparency.<br><br>
@@ -96,6 +95,24 @@ We used a Kanban system to manage our tasks, breaking the project down into week
 
 When prioritizing tasks, we considered both their value and the effort required. For example, map design was critical to our game because the placement of enemies, items, and obstacles was manually planned rather than randomly generated. Even when other teams had already started coding, we chose to focus on designing the maps first to ensure logical consistency and a coherent gameplay experience.
 Additionally, we used story points to estimate the workload for each sprint. All team members participated in the discussion to ensure a shared understanding of the effort required for each task. This approach helped maintain a sustainable development pace throughout the project.
+
+**2.3	Design and Visualization Tools**<br>
+In terms of art and visual design, our team placed great importance on consistency and creativity. We emphasized that all visual assets were created entirely by our team members—we did not use any AI-generated images or ready-made assets from online platforms. This approach ensured a high level of originality and coherence throughout the game.<br>
+The main tools we used include:<br>
+- Adobe Illustrator: Used for designing UI elements and creating the UI framework, helping to maintain a unified and visually guided interface style.<br>
+- Pinterest: Served as a tool for collecting and defining our visual reference board. By building a shared board, all team members could view and contribute visual inspiration in real time, allowing us to quickly reach a consensus on the artistic direction.<br>
+- Procreate: Used to hand-draw all in-game characters, cover illustrations, custom typefaces, and animations. <br>
+- Figma: Used to build interactive prototypes, which allowed us to simulate the game interface during user testing. It also helped the team review layouts in real time and collaborate efficiently during the design refinement process.<br>
+
+---
+**3.	Team Roles and Responsibilities**<br>
+•	Jianrun Han: Lead programmer responsible for the overall code structure and the implementation of most core game mechanics.<br>
+•	Tse Ying Chen: One of the gameplay designers, responsible for designing the difficulty curve and core logic of the Souls-like game system.<br>
+•	Kai Wu: Also a gameplay designer, responsible for planning the content of each level and developing the upgrade interface.<br>
+•	Yu Ting Wu: One of the visual designers, primarily responsible for drawing the main character, cover art, and environment design.<br>
+•	Cheng Hsuan Lee: Another visual designer, focused on designing enemy characters, UI elements, and background scenes.<br>
+
+
 
 
 

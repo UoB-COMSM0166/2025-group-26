@@ -27,10 +27,16 @@
 
 ### Introduction
 
-Our game, Dukat Soul, is encouraged by a famous type of game, soulslike. This type of game features in challenging player’ s physical and mental abilities through its difficulties and hopelessness. Dukat soul is here to challenge everyone who has faith with themselves by creative level design and mechanism.
-
 - 5% ~250 words 
 - Describe your game, what is based on, what makes it novel? 
+
+Our game, Dukat Soul, is a mini-game that merges the iconic platforming elements of Super Mario with the punishing mechanics of "Soulslike" games. Built on the familiar foundation of side-scrolling action, the game reimagines Mario’s cheerful, forgiving world into a challenging adventure that tests both patience and precision.
+
+Inspired by the legendary Dark Souls series, Dukat Soul introduces a significantly higher difficulty curve, where players are expected to learn through repeated failure. Each level is designed with meticulous traps and unpredictable enemy patterns, forcing players to carefully study and adapt to progress. Unlike traditional Mario games, death carries a heavier penalty: lose them permanently.
+
+What makes the game novel is its fusion of two seemingly opposite genres: the lighthearted, accessible gameplay of Super Mario with the grim, hardcore philosophy of Soulslike design. This contrast creates a fresh gameplay experience where nostalgic platforming meets strategic, high-stakes survival. By transforming a familiar icon into a vessel for unforgiving challenge, Dukat Soul offers both fans of classic Mario and Souls veterans a unique twist on two beloved gaming traditions.
+
+
 
 ### Requirements 
 

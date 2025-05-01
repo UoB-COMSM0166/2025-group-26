@@ -92,9 +92,9 @@ During the early planning phase, we used UMLetino to create class diagrams and s
     
 **2.2	Task and Project Management<br>**
 We used a Kanban system to manage our tasks, breaking the project down into weekly achievable units. Tasks were categorized into three columns: “Not started,” “In progress,” and “Done.” Each task included a due date and a brief description, which helped team members clearly understand responsibilities and track overall progress.<br>
-<img width="906" alt="截圖 2025-05-01 晚上7 27 02" src="https://github.com/user-attachments/assets/f435e196-7311-4e78-8a01-a80a1d3ef00b" />
-
-
+<p align="center">
+<img width="906" alt="截圖 2025-05-01 晚上7 27 02" src="https://github.com/user-attachments/assets/f435e196-7311-4e78-8a01-a80a1d3ef00b"width="400" />
+</p>
 
 When prioritizing tasks, we considered both their value and the effort required. For example, map design was critical to our game because the placement of enemies, items, and obstacles was manually planned rather than randomly generated. Even when other teams had already started coding, we chose to focus on designing the maps first to ensure logical consistency and a coherent gameplay experience.
 Additionally, we used story points to estimate the workload for each sprint. All team members participated in the discussion to ensure a shared understanding of the effort required for each task. This approach helped maintain a sustainable development pace throughout the project.

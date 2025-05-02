@@ -50,6 +50,7 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 - Use case diagrams, user stories. Early stages design. Ideation process. How did you decide as a team what to develop? 
 
 ### Design
+---
 
 1.System architecture\
 2.Class diagrams\
@@ -59,6 +60,21 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 - System architecture. Class diagrams, behavioural diagrams.
   
 #### System Architecture
+<br>
+In the early stages of development, the game was implemented using a centralized code structure, with most logic handled by global functions and variables across one or two files.<br>
+<br>
+As the game expanded—with features like upgrades, scene transitions, branching endings, and traps—this structure became harder to maintain and scale.<br>
+<br>
+To address this, we reorganized the code into modular components during the **design documentation phase**, based on functional responsibilities. While this modular breakdown doesn't always reflect the physical file layout, it illustrates the logical architecture and supports future expansion and refactoring.<br>
+<br>
+Modules were grouped based on:<br>
+
+1. Related functionality;<br>
+2. Similar object types (e.g., scene elements);<br>
+3. Scalability considerations (e.g., asset preloading with `preload()`).<br>
+
+Ultimately, the system was divided into ten main modules.<br>
+<br>
 ![System Architecture Diagram](https://github.com/user-attachments/assets/f126b00d-7c7d-4e68-855b-87f93a1d0567)
 
 |Module Name|Functions|Function Name|
@@ -77,17 +93,67 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 <br>
 
 #### Class Diagrams
+In our game system, we use **UML class diagrams** to model the **logical architecture and object relationships**. These diagrams clarify class responsibilities and show relationships like inheritance, composition, and aggregation.<br>
+<br>
+Based on the game’s structure, we organize the classes into four main sections:<br>
+<br>
+1️⃣ **Core Classes (Game Control and Logic)**<br>
+- The **`Game` class** is the central controller, managing the game loop, state transitions (e.g., menu, gameplay, upgrade), and coordination of scenes and input.<br>
+- The **`Player` class** handles character movement, actions, and combat, and integrates closely with upgrades.<br>
+- The **`UpgradeSystem`** is composed within `Player` and manages XP, upgrade conditions, and abilities like double jump or weapon boosts.<br>
+<br>
+2️⃣ **Scene and Element Management (Aggregation)**
+- The **`Scene` class** manages game levels, each containing objects like:<br>
+    - `Platform`, `Enemy`, `Spike`, `Coin`<br>
+    - `Portal` / `Pipe` (transitions)<br>
+    - `Turret`, `Bullet`, `Gate`, `Switch` (mechanics)<br>
+- These are linked to the scene through **aggregation**, meaning they belong to the scene but can exist independently.<br>
+<br>
+3️⃣ **Interaction and Event Triggers**<br>
+- Players interact with objects like `Portal` or `Pipe` to change scenes.<br>
+- Special elements (e.g., `Wizard`, `Antidote`, `EndSwitch`) affect story and endings.<br>
+- These interactions are handled via `Player`, influencing game state or triggering branching outcomes.<br>
+<br>
+4️⃣ **UI and Controls**<br>
+- The **`Button` class** is a reusable UI component for menus and transitions.<br>
+- The **`upgradeButton`**, a subclass of `Button`, is tailored for upgrade selection.<br>
+    - This follows an **inheritance** structure, extending base button behavior.<br>
+
 ![UML class](https://github.com/user-attachments/assets/056a1a24-af47-47a2-a35b-5b6b4cbf9125)
+<br>
+<br>
 
 #### Behavioural Diagrams - Sequence Diagram
+Throughout the game's design, many processes can be modeled using sequence diagrams. We selected the following three as key examples, as they represent core gameplay mechanics and involve multiple interacting modules.<br>
+<br>
+
+1️⃣ **Upgrade Sequence**<br>
 ![Player Upgrade Sequence Diagram](https://github.com/user-attachments/assets/bccdcf42-c544-4e20-bef3-ee61aacbe60d)
+**Scenario:**<br>
+When the player gains enough experience, the game enters an upgrade interface to select abilities like "Double Jump" or "Weapon Upgrade".<br>
+**Highlights:**<br>
+- Uses `alt` blocks to show upgrade choices<br>
+- Clear separation between UI and core logic<br>
+
+2️⃣ **Ending Branching Sequence**<br>
 ![Outcome branching process](https://github.com/user-attachments/assets/0cd7da69-9869-47b8-af09-35d6a0df5bd7)
+**Scenario:**<br>
+After defeating the final boss, the ending changes based on whether the player has a specific item (e.g., the "Antidote").<br>
+**Highlights:**<br>
+- `alt` blocks illustrate two possible endings<br>
+- Shows full flow: condition check → state switch → UI update<br>
+- Logic centralized in `EndSwitch` for easy future extension<br>
+<br>
+3️⃣ **Death & Respawn Sequence**<br>
 ![Blank diagram](https://github.com/user-attachments/assets/f546c7a5-869c-4c7a-a92b-8810cb88a0c4)
+**Scenario:**<br>
+If the player hits a trap or falls off-screen, they die and respawn at the latest checkpoint.<br>
+**Highlights:**<br>
+- Handles collision and death checks<br>
+- Includes health loss, death animation, scene reset, and repositioning<br>
+<br>
+<br>
 
-
-
-
-     
 ### Implementation
 
 - 15% ~750 words

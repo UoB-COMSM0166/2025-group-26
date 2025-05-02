@@ -144,6 +144,7 @@ After defeating the final boss, the ending changes based on whether the player h
 - Shows full flow: condition check → state switch → UI update<br>
 - Logic centralized in `EndSwitch` for easy future extension<br>
 <br>
+
 3️⃣ **Death & Respawn Sequence**<br>
 ![Blank diagram](https://github.com/user-attachments/assets/f546c7a5-869c-4c7a-a92b-8810cb88a0c4)
 **Scenario:**<br>

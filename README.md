@@ -58,7 +58,7 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 - 15% ~750 words 
 - System architecture. Class diagrams, behavioural diagrams.
   
-#### System architecture
+#### System Architecture
 ![System Architecture Diagram](https://github.com/user-attachments/assets/f126b00d-7c7d-4e68-855b-87f93a1d0567)
 
 |Module Name|Functions|Function Name|
@@ -75,8 +75,17 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 |HUD System|Display player information: experience bar, time, gold, level, etc.|drawHUD()
 <br>
 <br>
-#### Class diagrams
+
+#### Class Diagrams
 ![UML class](https://github.com/user-attachments/assets/056a1a24-af47-47a2-a35b-5b6b4cbf9125)
+
+#### Behavioural Diagrams - Sequence Diagram
+![Player Upgrade Sequence Diagram](https://github.com/user-attachments/assets/bccdcf42-c544-4e20-bef3-ee61aacbe60d)
+![Outcome branching process](https://github.com/user-attachments/assets/0cd7da69-9869-47b8-af09-35d6a0df5bd7)
+![Blank diagram](https://github.com/user-attachments/assets/f546c7a5-869c-4c7a-a92b-8810cb88a0c4)
+
+
+
 
      
 ### Implementation

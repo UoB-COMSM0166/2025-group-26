@@ -271,6 +271,24 @@ By deeply analyzing these three challenges and iteratively refining both design 
 - One quantitative evaluation (of your choice) 
 - Description of how code was tested. 
 
+To further optimise our game, we decide to investigate user experience to identify potential issues. We adopted both qualitative and quantitative evaluation methods.  
+  
+For qualitative evaluation, we used the Think Aloud Protocol. This is an effective usability testing method that helps capture user experiences in real time. In this evaluation, the facilitator assigns several tasks for the participants. While completing these tasks, participants are asked to verbalise their thoughts and feelings. Meanwhile, an observer presents to document any issues or comments raised by participants during the process.  
+
+**Qualitative evaluation: Think Aloud Evaluation**  
+Here is the further information of our think aloud evaluation. As mentioned above, the first mission of this evaluation was to set specific tasks for participants. In our evaluation, the first task required participants to successfully trigger upgrade page, and the second tasks required participants to successfully trigger portal mechanism. Our game features both the upgrade function and the portal system. The two tasks allow players not only to experience the core gameplay, but also to explore the unique elements of our game during the evaluation.  
+
+Below are the observations recorded by observer during the evaluation:
+  1. Keyboard controls are not intuitive.  
+     In Dukat Soul, players frequently use the move right, move left, and jump functions to clear levels. However, our default control assigned the jump function to the “J” key, which differs from the conventional setting—“spacebar”. As a result, several participants struggled to figure out how to jump at the beginning. Although we implemented a setting menu that       allows player to customise controls, clearer instructions are still necessary to ensure all user can easily understand how to operate the game.  
+  2. Participants were unsure if they had collected items.  
+     In our game, coins are important items for triggering upgrade interface. While all participants noticed the coins during gameplay, some were unsure whether they had actually collected them, and others were uncertain about how many they had gathered. Based on this feedback, we plan to add an animation which visually shows coins being added to the experience         bar, helping players clearly understand that the coin has been collected.  
+  3. Attacking mechanics are monotonous.  
+     Some participants commented that the attacking mechanics felt too repetitive. This is actually an opinion we look forward, as Dukat Soul is designed for players from beginners to experts. We expect experienced players to explore creative way to play, and this kind of feedback shows that they are beginning to do this. While we plan to retain the current             mechanics, we hope that players will find more various ways to complete each level.  
+  4. Block icons are confusing.
+     In our game, certain items are hidden inside blocks that players can bump to reveal. However, some participants reported confusion about which blocks contained items. We recognise that this negatively affects the user experience, so we plan to redesign the icons to clearly distinguish between regular blocks and item-containing blocks.
+  
+  
 ### Process 
 ---
 #### 1.	Collaboration and Communication<br>

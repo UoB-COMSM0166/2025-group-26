@@ -56,8 +56,67 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 3.behavioural diagrams
 
 - 15% ~750 words 
-- System architecture. Class diagrams, behavioural diagrams. 
+- System architecture. Class diagrams, behavioural diagrams.
+  
+#### System architecture
+![System Architecture Diagram](https://github.com/user-attachments/assets/f126b00d-7c7d-4e68-855b-87f93a1d0567)
 
+Game Root (main program)<br>
+│<br>
+├─ 1. Game Controller: All other modules are controlled by it<br>
+│   ├─ Control game flow status（menu, playing, upgrade...）<br>
+│   ├─ Call UI system / Scene management / Player update / Trap check, etc.<br>
+│<br>
+├─ 2. Input & Event System<br>
+│ ├─ Handle Keyboard / Mouse Inputs<br>
+│ ├─ Call Controller or Pass to Player/UI Module<br>
+│<br>
+├─ 3. UI System<br>
+│   ├─ MainMenu<br>
+│   ├─ DifficultyMenu<br>
+│   ├─ SettingsMenu<br>
+│   ├─ UpgradeMenu<br>
+│   └─ Button / upgradeButton<br>
+│<br>
+├─ 4. Player System<br>
+│   ├─ Player<br>
+│   ├─ UpgradeSystem<br>
+│   ├─ PlayerBullet<br>
+│<br>
+├─ 5. Scene Manager<br>
+│   ├─ Main scene / hidden scene switching and updating<br>
+│   ├─ Inside the Scene：Scene / Portal / Pipe / Cliff / Checkpoint /...<br>
+│<br>
+├─ 6. Level Entities<br>
+│   ├─ Platform / Enemy / Coin / Spike<br>
+│   ├─ BreakableBlock / HiddenBlock<br>
+│<br>
+├─ 7. Trap System<br>
+│   ├─ Turret / Bullet<br>
+│   ├─ Cloud / Billboard<br>
+│   ├─ Switch → Gate / FinalGate<br>
+│   ├─ ChasingSpike<br>
+│   ├─ EndSwitch<br>
+│<br>
+├─ 8. NPC & Ending System<br>
+│   ├─ Wizard<br>
+│   ├─ Antidote<br>
+│   ├─ EndSwitch<br>
+│<br>
+├─ 9. Resource System<br>
+│   ├─ loadImage<br>
+│   ├─ Audio Settings / Volume Control<br>
+│   ├─ Key Setting Management<br>
+│<br>
+└─ 10. HUD System<br>
+     ├─ Show Coins / Experience / Time / Levels<br>
+     └─ Call drawHUD() to update the screen information<br>
+<br>
+<br>
+#### Class diagrams
+![UML class](https://github.com/user-attachments/assets/056a1a24-af47-47a2-a35b-5b6b4cbf9125)
+
+     
 ### Implementation
 
 - 15% ~750 words

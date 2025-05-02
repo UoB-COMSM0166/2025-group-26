@@ -134,8 +134,8 @@ Throughout the game's design, many processes can be modeled using sequence diagr
 **Scenario:**<br>
 When the player gains enough experience, the game enters an upgrade interface to select abilities like "Double Jump" or "Weapon Upgrade".<br>
 **Highlights:**<br>
-- Uses `alt` blocks to show upgrade choices<br>
-- Clear separation between UI and core logic<br>
+The flow starts from navigating options to confirming upgrades (e.g., double jump or weapon). Data flows through InputSystem → UpgradeMenu → GameController → Player, directly modifying states like player.canDoubleJump = true.<br>
+alt blocks represent upgrade branches, making the diagram both faithful to code and extensible.<br>
 <br>
 
 2️⃣ **Ending Branching Sequence**<br>
@@ -144,9 +144,7 @@ When the player gains enough experience, the game enters an upgrade interface to
 **Scenario:**<br>
 After defeating the final boss, the ending changes based on whether the player has a specific item (e.g., the "Antidote").<br>
 **Highlights:**<br>
-- `alt` blocks illustrate two possible endings<br>
-- Shows full flow: condition check → state switch → UI update<br>
-- Logic centralized in `EndSwitch` for easy future extension<br>
+Death is triggered by player.y > height, with GameController managing the process: calling respawnPlayer() and updating the HUD.<br>
 <br>
 
 3️⃣ **Death & Respawn Sequence**<br>
@@ -155,8 +153,8 @@ After defeating the final boss, the ending changes based on whether the player h
 **Scenario:**<br>
 If the player hits a trap or falls off-screen, they die and respawn at the latest checkpoint.<br>
 **Highlights:**<br>
-- Handles collision and death checks<br>
-- Includes health loss, death animation, scene reset, and repositioning<br>
+Triggered when boss.hp <= 0 in scene.update(), activating endSwitch, then checking if the player holds the Antidote to determine the ending.<br>
+An alt block shows the two branches. Includes wizard.display() for narrative interaction. The diagram reflects the full logic from game state changes to conditional rendering in draw().<br>
 <br>
 <br>
 

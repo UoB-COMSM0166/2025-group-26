@@ -62,7 +62,7 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 ![System Architecture Diagram](https://github.com/user-attachments/assets/f126b00d-7c7d-4e68-855b-87f93a1d0567)
 
 |Module Name|Functions|Function Name|
-|...|...|...|
+| --------- | -------- | -------- |
 |Game Controller|Core Command Center: Controls game state, process switching, and correspondence calls.|setup()/ draw()/ drawGame()/ respawnPlayer()/ setupNextScene()
 |Input System|Handling of keyboard and mouse input, transfer to UI or player behavior|mousePressed()/ keyPressed()
 |UI System|Interactive interfaces such as the main menu, upgrade menu, setup screen, etc.|drawMenu()/ drawDifficultyMenu()/ drawSettings()/ drawUpgrade()/ drawPortalSelection()/ handleUpgradeInput()/

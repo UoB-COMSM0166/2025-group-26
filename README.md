@@ -293,17 +293,24 @@ Below are the observations recorded by observer during the evaluation:
 
 In this section, we analyse the results of our quantitative evaluations using NASA TLX. For the NASA TLX, the workload scores of all participants under the two difficulties are shown below. In this table, most participants shows increased workload scores with higher difficulty. The average workload scores were 57 and 64 for the easy and difficult mode, respectively—indicating a moderate to high workload.  
   
-*The workload scores with all participents*![image](https://github.com/user-attachments/assets/a45de25c-a6b8-4617-96de-8933914f3327)
+*The workload scores with all participents*
+| Participant     | 1  | 2  | 3  | 4  | 5 | 6   | 7  | 8  | 9  | 10 | AVG |
+|-----------------|----|----|----|----|----|----|----|----|----|----|-----|
+| Easy Mode       | 63 | 50 | 60 | 71 | 85 | 35 | 18 | 36 | 87 | 63 | 57  |
+| Difficult Mode  | 68 | 57 | 66 | 73 | 88 | 42 | 24 | 54 | 87 | 77 | 64  |
 
 
 Our goal is to design a soulslike game that differs from conventional one by offering lower difficulty, making it more accessible to players of all skill levels. The workload results align with our design. While the game introduces a slightly higher strain, the levels remain within an acceptable range for most users. However, one adjustment we could make is to further reduce the difficulty of the easy mode, especially for entry-level player. The statistical analysis using the Wilcoxon Signed-Rank Test shows a significant difference between the two difficulty levels, with a W statistic of 0, indicating consistent increases in perceived workload. For easier comparison, the workload scores are also presented in a bar chart in below.  
   
 *The bar chart of workload scores with all participents*![image](https://github.com/user-attachments/assets/e26f855d-c7e0-4bd0-aaa9-b077b0464e57)
 
-
 We also compare the average scores across 6 NASA LTX dimensions to better understand the type of strain participants have experienced, the results are shown below. The results indicate that the highest strain comes from mental demand, physical demand and effort. This outcome is perfectly aligned with our design goals. Soulslike games require players to cope with mental pressure, practice their operation repeatedly, and exert sustained effort in order to progress.  
 
-*The workload scores across dimensions*![image](https://github.com/user-attachments/assets/24cd3aa5-6bb8-4519-baea-5a851ad93f41)
+*The workload scores across dimensions*
+| Dimension       | Mental | Physical | Temporal | Performance | Effort | Frustration |
+|----------------|--------|----------|----------|-------------|--------|-------------|
+| Easy Mode      | 58     | 59       | 53       | 52          | 63     | 56          |
+| Difficult Mode | 74     | 67       | 58       | 48          | 73     | 63          |
 
 
 As mentioned earlier, we believe the easy mode might be too challenging for beginners, and this is supported by the frustration score of 56 in the easy mode, which strengthens our assumption. Adjusting the difficulty of the easy mode will be one of our future works. Figure shown in below provides a bar chart comparison to facilitate visual evaluation of these dimensions.  

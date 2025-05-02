@@ -130,6 +130,8 @@ Throughout the game's design, many processes can be modeled using sequence diagr
 
 1️⃣ **Upgrade Sequence**<br>
 ![Player Upgrade Sequence Diagram](https://github.com/user-attachments/assets/bccdcf42-c544-4e20-bef3-ee61aacbe60d)
+![螢幕擷取畫面 2025-05-02 033016](https://github.com/user-attachments/assets/d418c398-393a-446a-bf94-a9e1df1cebcc)
+
 **Scenario:**<br>
 When the player gains enough experience, the game enters an upgrade interface to select abilities like "Double Jump" or "Weapon Upgrade".<br>
 **Highlights:**<br>
@@ -139,6 +141,8 @@ When the player gains enough experience, the game enters an upgrade interface to
 
 2️⃣ **Ending Branching Sequence**<br>
 ![Outcome branching process](https://github.com/user-attachments/assets/0cd7da69-9869-47b8-af09-35d6a0df5bd7)
+![螢幕擷取畫面 2025-05-02 033105](https://github.com/user-attachments/assets/a280ae4b-43af-4ab6-b4a5-2959f566c581)
+
 **Scenario:**<br>
 After defeating the final boss, the ending changes based on whether the player has a specific item (e.g., the "Antidote").<br>
 **Highlights:**<br>
@@ -149,6 +153,8 @@ After defeating the final boss, the ending changes based on whether the player h
 
 3️⃣ **Death & Respawn Sequence**<br>
 ![Blank diagram](https://github.com/user-attachments/assets/f546c7a5-869c-4c7a-a92b-8810cb88a0c4)
+![螢幕擷取畫面 2025-05-02 033037](https://github.com/user-attachments/assets/53ba6338-71cc-4260-8a07-825f30aeb944)
+
 **Scenario:**<br>
 If the player hits a trap or falls off-screen, they die and respawn at the latest checkpoint.<br>
 **Highlights:**<br>

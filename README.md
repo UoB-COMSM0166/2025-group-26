@@ -275,7 +275,8 @@ To further optimise our game, we decide to investigate user experience to identi
   
 For qualitative evaluation, we used the Think Aloud Protocol. This is an effective usability testing method that helps capture user experiences in real time. In this evaluation, the facilitator assigns several tasks for the participants. While completing these tasks, participants are asked to verbalise their thoughts and feelings. Meanwhile, an observer presents to document any issues or comments raised by participants during the process.  
 
-**Qualitative evaluation: Think Aloud Evaluation**  
+**Qualitative evaluation: Think Aloud Evaluation**
+
 Here is the further information of our think aloud evaluation. As mentioned above, the first mission of this evaluation was to set specific tasks for participants. In our evaluation, the first task required participants to successfully trigger upgrade page, and the second tasks required participants to successfully trigger portal mechanism. Our game features both the upgrade function and the portal system. The two tasks allow players not only to experience the core gameplay, but also to explore the unique elements of our game during the evaluation.  
 
 Below are the observations recorded by observer during the evaluation:
@@ -285,17 +286,30 @@ Below are the observations recorded by observer during the evaluation:
    In our game, coins are important items for triggering upgrade interface. While all participants noticed the coins during gameplay, some were unsure whether they had actually collected them, and others were uncertain about how many they had gathered. Based on this feedback, we plan to add an animation which visually shows coins being added to the experience         bar, helping players clearly understand that the coin has been collected.  
 3. Attacking mechanics are monotonous.  
    Some participants commented that the attacking mechanics felt too repetitive. This is actually an opinion we look forward, as Dukat Soul is designed for players from beginners to experts. We expect experienced players to explore creative way to play, and this kind of feedback shows that they are beginning to do this. While we plan to retain the current             mechanics, we hope that players will find more various ways to complete each level.
-4. Block icons are confusing.
+4. Block icons are confusing.  
    In our game, certain items are hidden inside blocks that players can bump to reveal. However, some participants reported confusion about which blocks contained items. We recognise that this negatively affects the user experience, so we plan to redesign the icons to clearly distinguish between regular blocks and item-containing blocks.  
 
-**Quantitative Evaluation: NASA TLX**  
-In this section, we analyse the results of our quantitative evaluations using NASA TLX. For the NASA TLX, the workload scores of all participants under the two difficulties are shown in Figure1. In this table, most participants shows increased workload scores with higher difficulty. The average workload scores were 57 and 64 for the easy and difficult mode, respectively—indicating a moderate to high workload.  
+**Quantitative Evaluation: NASA TLX**
 
-Our goal is to design a soulslike game that differs from conventional one by offering lower difficulty, making it more accessible to players of all skill levels. The workload results align with our design. While the game introduces a slightly higher strain, the levels remain within an acceptable range for most users. However, one adjustment we could make is to further reduce the difficulty of the easy mode, especially for entry-level player. The statistical analysis using the Wilcoxon Signed-Rank Test shows a significant difference between the two difficulty levels, with a W statistic of 0, indicating consistent increases in perceived workload. For easier comparison, the workload scores are also presented in a bar chart in Figure 2.  
+In this section, we analyse the results of our quantitative evaluations using NASA TLX. For the NASA TLX, the workload scores of all participants under the two difficulties are shown below. In this table, most participants shows increased workload scores with higher difficulty. The average workload scores were 57 and 64 for the easy and difficult mode, respectively—indicating a moderate to high workload.  
+  
+*The workload scores with all participents*![image](https://github.com/user-attachments/assets/a45de25c-a6b8-4617-96de-8933914f3327)
 
-In Figure3, we compare the average scores across 6 NASA LTX dimensions to better understand the type of strain participants have experienced. The results indicate that the highest strain comes from mental demand, physical demand and effort. This outcome is perfectly aligned with our design goals. Soulslike games require players to cope with mental pressure, practice their operation repeatedly, and exert sustained effort in order to progress.  
 
-As mentioned earlier, we believe the easy mode might be too challenging for beginners, and this is supported by the frustration score of 56 in the easy mode, which strengthens our assumption. Adjusting the difficulty of the easy mode will be one of our future works. Figure4 provides a bar chart comparison to facilitate visual evaluation of these dimensions.
+Our goal is to design a soulslike game that differs from conventional one by offering lower difficulty, making it more accessible to players of all skill levels. The workload results align with our design. While the game introduces a slightly higher strain, the levels remain within an acceptable range for most users. However, one adjustment we could make is to further reduce the difficulty of the easy mode, especially for entry-level player. The statistical analysis using the Wilcoxon Signed-Rank Test shows a significant difference between the two difficulty levels, with a W statistic of 0, indicating consistent increases in perceived workload. For easier comparison, the workload scores are also presented in a bar chart in below.  
+  
+*The bar chart of workload scores with all participents*![image](https://github.com/user-attachments/assets/e26f855d-c7e0-4bd0-aaa9-b077b0464e57)
+
+
+We also compare the average scores across 6 NASA LTX dimensions to better understand the type of strain participants have experienced, the results are shown below. The results indicate that the highest strain comes from mental demand, physical demand and effort. This outcome is perfectly aligned with our design goals. Soulslike games require players to cope with mental pressure, practice their operation repeatedly, and exert sustained effort in order to progress.  
+
+*The workload scores across dimensions*![image](https://github.com/user-attachments/assets/24cd3aa5-6bb8-4519-baea-5a851ad93f41)
+
+
+As mentioned earlier, we believe the easy mode might be too challenging for beginners, and this is supported by the frustration score of 56 in the easy mode, which strengthens our assumption. Adjusting the difficulty of the easy mode will be one of our future works. Figure shown in below provides a bar chart comparison to facilitate visual evaluation of these dimensions.  
+
+*The bar chart of workload scores across dimensions*![image](https://github.com/user-attachments/assets/3a4042f6-439b-4fa5-a56e-66266c31214d)
+
   
 ### Process 
 ---

@@ -79,16 +79,16 @@ Ultimately, the system was divided into ten main modules.<br>
 
 |Module Name|Functions|Function Name|
 | --------- | -------- | -------- |
-|Game Controller|Core Command Center: Controls game state, process switching, and correspondence calls.|setup()/ draw()/ drawGame()/ respawnPlayer()/ setupNextScene()
-|Input System|Handling of keyboard and mouse input, transfer to UI or player behavior|mousePressed()/ keyPressed()
-|UI System|Interactive interfaces such as the main menu, upgrade menu, setup screen, etc.|drawMenu()/ drawDifficultyMenu()/ drawSettings()/ drawUpgrade()/ drawPortalSelection()/ handleUpgradeInput()/
-|Player System|Controls player movement, jumping, leveling and attacking (with bullets)|collection()/ checkFallDeath()/ isPlayerOverCliff()/ respawnPlayer()
-|Scene Manager|Controls scene switching, scene object initialization, and determining the current scene.|teleport(targetPortal)/ enterHiddenLevel()/ setupNextScene()/ isInCurrentScene(scene)
+|Game Controller|Core Command Center: Controls game state, process switching, and correspondence calls.|`setup()`/ `draw()`/ `drawGame()`/ `respawnPlayer()`/ `setupNextScene()`
+|Input System|Handling of keyboard and mouse input, transfer to UI or player behavior|`mousePressed()`/ `keyPressed()`
+|UI System|Interactive interfaces such as the main menu, upgrade menu, setup screen, etc.|`drawMenu()`/ `drawDifficultyMenu()`/ `drawSettings()`/ `drawUpgrade()`/ `drawPortalSelection()`/ `handleUpgradeInput()`/
+|Player System|Controls player movement, jumping, leveling and attacking (with bullets)|`collection()`/ `checkFallDeath()`/ `isPlayerOverCliff()`/ `respawnPlayer()`
+|Scene Manager|Controls scene switching, scene object initialization, and determining the current scene.|`teleport(targetPortal)`/ `enterHiddenLevel()`/ `setupNextScene()`/ `isInCurrentScene(scene)`
 |Level Entities|Objects in each scene: platforms, enemies, coins, cubes, etc.| Platform/ Enemy/ Coin/ Spike/ ...
-|Trap System|Various types of traps: turrets, spikes, doors and switching logic|drawGame() → call internal trap update (e.g. turret.update())/ Turret/ Bullet/ Cloud /Billboard
-|NPC & Ending System|Plot characters and ending decisions: Wizard, Antidote, EndSwitch|Automatically updated by Scene.update()
-|Resource System|Load images, sounds and setup keys, including volume management|preload()
-|HUD System|Display player information: experience bar, time, gold, level, etc.|drawHUD()
+|Trap System|Various types of traps: turrets, spikes, doors and switching logic|`drawGame()` → call internal trap update (e.g. `turret.update()`)/ Turret/ Bullet/ Cloud /Billboard
+|NPC & Ending System|Plot characters and ending decisions: Wizard, Antidote, EndSwitch|Automatically updated by `Scene.update()`
+|Resource System|Load images, sounds and setup keys, including volume management|`preload()`
+|HUD System|Display player information: experience bar, time, gold, level, etc.|`drawHUD()`
 <br>
 <br>
 
@@ -102,7 +102,7 @@ Based on the game’s structure, we organize the classes into four main sections
 - The **`Player` class** handles character movement, actions, and combat, and integrates closely with upgrades.<br>
 - The **`UpgradeSystem`** is composed within `Player` and manages XP, upgrade conditions, and abilities like double jump or weapon boosts.<br>
 <br>
-2️⃣ **Scene and Element Management (Aggregation)**
+2️⃣ **Scene and Element Management (Aggregation)**<br>
 - The **`Scene` class** manages game levels, each containing objects like:<br>
     - `Platform`, `Enemy`, `Spike`, `Coin`<br>
     - `Portal` / `Pipe` (transitions)<br>

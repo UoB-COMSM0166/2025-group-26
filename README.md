@@ -197,7 +197,7 @@ We created a leveling system tightly coupled with the collection logic. When eno
 
 To avoid disrupting pacing, we tested various UI placements and transition timings. We also needed to preserve upgrades through death, so player level and choices were stored as persistent state, not reset upon respawn.
 
-![1a0037eb-4f5e-47d6-8a2b-915947d741ac.png](attachment:e40db502-7648-425c-b36a-8928261003bc:1a0037eb-4f5e-47d6-8a2b-915947d741ac.png)
+![upgrade-system](https://github.com/user-attachments/assets/3eb26d92-e333-429b-8f14-ca93f7935f50)
 
 ---
 
@@ -225,7 +225,7 @@ Collision was enabled only when the spike’s scene matched the player’s. On d
 
 We built a timing system to start and stop the spike, and verified its motion visually with debug overlays during testing.
 
-![5d9c5c42-0f33-45b3-af2a-77230b3ba369.png](attachment:70729545-ad35-4c40-8741-9f558e2422d6:5d9c5c42-0f33-45b3-af2a-77230b3ba369.png)
+![tracking-spike](https://github.com/user-attachments/assets/493337dc-4624-403e-91e4-0d8038456d52)
 
 ---
 
@@ -258,7 +258,7 @@ To handle persistence, we used flags to decide whether an object resets or remai
 
 To verify correctness, we used “reset stress tests”: dying repeatedly at different phases and validating state rollback.
 
-![cc64a958-c58a-4310-8919-4c46b806fa4b.png](attachment:fc7d22a3-8e45-466d-a27a-dc23a9edf145:cc64a958-c58a-4310-8919-4c46b806fa4b.png)
+![multi-trap](https://github.com/user-attachments/assets/b0e3db65-ec08-4870-a306-5d1e46337f5a)
 
 ---
 

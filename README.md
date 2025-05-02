@@ -123,32 +123,6 @@ Based on the game’s structure, we organize the classes into four main sections
     
 ![UML class](https://github.com/user-attachments/assets/056a1a24-af47-47a2-a35b-5b6b4cbf9125)
 <br>
-----
-In our game system, we use **UML class diagrams** to model the **logical architecture and object relationships**. These diagrams clarify class responsibilities and show relationships like inheritance, composition, and aggregation.<br>
-Based on the game’s structure, we organize the classes into four main sections:<br>
-
-### 1️⃣ **Core Classes (Game Control and Logic)**<br>
-- The **`Game` class** is the central controller, managing the game loop, state transitions (e.g., menu, gameplay, upgrade), and coordination of scenes and input.<br>
-- The **`Player` class** handles character movement, actions, and combat, and integrates closely with upgrades.<br>
-- The **`UpgradeSystem`** is composed within `Player` and manages XP, upgrade conditions, and abilities like double jump or weapon boosts.<br>
-
-### 2️⃣ **Scene and Element Management (Aggregation)**<br>
-- The **`Scene` class** manages game levels, each containing objects like:<br>
-    - `Platform`, `Enemy`, `Spike`, `Coin`<br>
-    - `Portal` / `Pipe` (transitions)<br>
-    - `Turret`, `Bullet`, `Gate`, `Switch` (mechanics)<br>
-- These are linked to the scene through **aggregation**, meaning they belong to the scene but can exist independently.<br>
-
-### 3️⃣ **Interaction and Event Triggers**<br>
-- Players interact with objects like `Portal` or `Pipe` to change scenes.<br>
-- Special elements (e.g., `Wizard`, `Antidote`, `EndSwitch`) affect story and endings.<br>
-- These interactions are handled via `Player`, influencing game state or triggering branching outcomes.<br>
-
-### 4️⃣ **UI and Controls**<br>
-- The **`Button` class** is a reusable UI component for menus and transitions.<br>
-- The **`upgradeButton`**, a subclass of `Button`, is tailored for upgrade selection.<br>
-    - This follows an **inheritance** structure, extending base button behavior.<br>
----
 
 ### Behavioural Diagrams - Sequence Diagram
 Throughout the game's design, many processes can be modeled using sequence diagrams. We selected the following three as key examples, as they represent core gameplay mechanics and involve multiple interacting modules.<br>

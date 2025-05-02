@@ -163,7 +163,106 @@ Death is triggered by `player.y > height`, with `GameController` managing the pr
 ### Implementation
 
 - 15% ~750 words
-- Describe implementation of your game, in particular highlighting the three areas of challenge in developing your game. 
+- Describe implementation of your game, in particular highlighting the three areas of challenge in developing your game.
+
+- During the development of this 2D platformer game, three major challenges shaped both the design and the implementation. Each problem required not only technical solutions, but also deep consideration of gameplay experience, logic coherence, and scalability. These challenges were:
+
+1. Designing a flexible and engaging upgrade system
+2. Implementing cross-scene traps, especially the “chasing spike”
+3. Managing stateful environmental interactions across death and transition
+
+---
+
+### **Challenge 1: Designing the Upgrade System**
+
+**Problem Overview:**
+
+We wanted the player to feel rewarded for progress, but without overwhelming them. The goal was to offer a meaningful choice every few minutes: weapon or buff? The design needed to:
+
+- Provide upgrade opportunities at regular intervals
+- Clearly differentiate between upgrade paths
+- Preserve upgrades through death and scene changes
+
+**Thinking Process:**
+
+Initial versions used instant upgrades, but that removed player agency. We then explored decision-triggered upgrades, but paused the game flow too often. Eventually, we aimed to:
+
+- Use coins as experience tokens (10 coins = 1 level)
+- Let the player actively choose between two upgrade types
+- Pause gameplay only during upgrade selection
+
+**Exploration & Solution:**
+
+We created a leveling system tightly coupled with the collection logic. When enough coins were collected, the game entered an “upgrade state,” freezing all other interactions and offering a simple two-button UI. Behind this, we structured player attributes (like bullet ability or jump power) as level-dependent flags.
+
+To avoid disrupting pacing, we tested various UI placements and transition timings. We also needed to preserve upgrades through death, so player level and choices were stored as persistent state, not reset upon respawn.
+
+![1a0037eb-4f5e-47d6-8a2b-915947d741ac.png](attachment:e40db502-7648-425c-b36a-8928261003bc:1a0037eb-4f5e-47d6-8a2b-915947d741ac.png)
+
+---
+
+### **Challenge 2: Implementing the Cross-Scene Chasing Spike**
+
+**Problem Overview:**
+
+This trap begins moving once a switch is triggered and continues relentlessly across multiple hidden scenes, creating tension and urgency. The challenge was:
+
+- How to make an object traverse scenes?
+- How to manage its motion and collision only when visible?
+- How to reset it precisely on player death?
+
+**Thinking Process:**
+
+Our initial instinct was to create a spike object per scene, but this led to synchronization issues. Then we imagined the trap as a global actor — not bound to any specific scene, but calculated using a “global x-position” and activated frame count.
+
+The key realization: scenes can be static, but the trap must think “globally.”
+
+**Exploration & Solution:**
+
+We treated the spike’s position as a function of time: starting from frame N, each frame moves it forward at fixed speed. Its scene index is derived from its position divided by canvas width.
+
+Collision was enabled only when the spike’s scene matched the player’s. On death, all related objects, including the spike and triggering switches, were reset to initial state.
+
+We built a timing system to start and stop the spike, and verified its motion visually with debug overlays during testing.
+
+![5d9c5c42-0f33-45b3-af2a-77230b3ba369.png](attachment:70729545-ad35-4c40-8741-9f558e2422d6:5d9c5c42-0f33-45b3-af2a-77230b3ba369.png)
+
+---
+
+### **Challenge 3: Managing Interactions Between Environment Elements**
+
+**Problem Overview:**
+
+Our game world includes gates, switches, moving platforms, hidden blocks, and more. Many elements depend on others — e.g., a switch opens a gate and triggers a trap. The core challenges were:
+
+- How to structure these interactions without spaghetti logic?
+- How to ensure consistent behavior across scene transitions?
+- How to control what resets and what persists after death?
+
+**Thinking Process:**
+
+We started with hardcoded links (e.g., `switch[0] affects gate[0]`), but this rapidly became unscalable. We needed a **modular trigger system**: each switch knows what it affects, and each element listens for activation signals.
+
+We also identified four interaction types:
+
+1. One-time triggers (e.g., gate opens permanently)
+2. Timed triggers (e.g., moving platforms)
+3. Resettable triggers (e.g., switch-trap combos)
+4. Multi-condition unlocks (e.g., hidden block + location)
+
+**Exploration & Solution:**
+
+We revised our object model to include shared references — each switch held a list of target objects it would affect. This made each scene self-contained, reducing coupling.
+
+To handle persistence, we used flags to decide whether an object resets or remains open. For example, final gates would reset, but hidden doors remain open after switches are triggered.
+
+To verify correctness, we used “reset stress tests”: dying repeatedly at different phases and validating state rollback.
+
+![cc64a958-c58a-4310-8919-4c46b806fa4b.png](attachment:fc7d22a3-8e45-466d-a27a-dc23a9edf145:cc64a958-c58a-4310-8919-4c46b806fa4b.png)
+
+---
+
+By deeply analyzing these three challenges and iteratively refining both design and logic, we built a system that is flexible, stable, and expandable. Our solutions combine real-time state tracking, modular signal-based design, and careful death-respawn handling — all key to delivering a responsive and rewarding gameplay experience.
 
 ### Evaluation
 

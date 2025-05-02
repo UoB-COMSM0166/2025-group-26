@@ -135,6 +135,7 @@ When the player gains enough experience, the game enters an upgrade interface to
 **Highlights:**<br>
 - Uses `alt` blocks to show upgrade choices<br>
 - Clear separation between UI and core logic<br>
+<br>
 
 2️⃣ **Ending Branching Sequence**<br>
 ![Outcome branching process](https://github.com/user-attachments/assets/0cd7da69-9869-47b8-af09-35d6a0df5bd7)
@@ -144,6 +145,7 @@ After defeating the final boss, the ending changes based on whether the player h
 - `alt` blocks illustrate two possible endings<br>
 - Shows full flow: condition check → state switch → UI update<br>
 - Logic centralized in `EndSwitch` for easy future extension<br>
+<br>
 
 3️⃣ **Death & Respawn Sequence**<br>
 ![Blank diagram](https://github.com/user-attachments/assets/f546c7a5-869c-4c7a-a92b-8810cb88a0c4)

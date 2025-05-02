@@ -61,56 +61,18 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 #### System architecture
 ![System Architecture Diagram](https://github.com/user-attachments/assets/f126b00d-7c7d-4e68-855b-87f93a1d0567)
 
-Game Root (main program)<br>
-│<br>
-├─ 1. Game Controller: All other modules are controlled by it<br>
-│   ├─ Control game flow status（menu, playing, upgrade...）<br>
-│   ├─ Call UI system / Scene management / Player update / Trap check, etc.<br>
-│<br>
-├─ 2. Input & Event System<br>
-│ ├─ Handle Keyboard / Mouse Inputs<br>
-│ ├─ Call Controller or Pass to Player/UI Module<br>
-│<br>
-├─ 3. UI System<br>
-│   ├─ MainMenu<br>
-│   ├─ DifficultyMenu<br>
-│   ├─ SettingsMenu<br>
-│   ├─ UpgradeMenu<br>
-│   └─ Button / upgradeButton<br>
-│<br>
-├─ 4. Player System<br>
-│   ├─ Player<br>
-│   ├─ UpgradeSystem<br>
-│   ├─ PlayerBullet<br>
-│<br>
-├─ 5. Scene Manager<br>
-│   ├─ Main scene / hidden scene switching and updating<br>
-│   ├─ Inside the Scene：Scene / Portal / Pipe / Cliff / Checkpoint /...<br>
-│<br>
-├─ 6. Level Entities<br>
-│   ├─ Platform / Enemy / Coin / Spike<br>
-│   ├─ BreakableBlock / HiddenBlock<br>
-│<br>
-├─ 7. Trap System<br>
-│   ├─ Turret / Bullet<br>
-│   ├─ Cloud / Billboard<br>
-│   ├─ Switch → Gate / FinalGate<br>
-│   ├─ ChasingSpike<br>
-│   ├─ EndSwitch<br>
-│<br>
-├─ 8. NPC & Ending System<br>
-│   ├─ Wizard<br>
-│   ├─ Antidote<br>
-│   ├─ EndSwitch<br>
-│<br>
-├─ 9. Resource System<br>
-│   ├─ loadImage<br>
-│   ├─ Audio Settings / Volume Control<br>
-│   ├─ Key Setting Management<br>
-│<br>
-└─ 10. HUD System<br>
-     ├─ Show Coins / Experience / Time / Levels<br>
-     └─ Call drawHUD() to update the screen information<br>
+|Module Name|Functions|Function Name|
+|...|...|...|
+|Game Controller|Core Command Center: Controls game state, process switching, and correspondence calls.|setup()/ draw()/ drawGame()/ respawnPlayer()/ setupNextScene()
+|Input System|Handling of keyboard and mouse input, transfer to UI or player behavior|mousePressed()/ keyPressed()
+|UI System|Interactive interfaces such as the main menu, upgrade menu, setup screen, etc.|drawMenu()/ drawDifficultyMenu()/ drawSettings()/ drawUpgrade()/ drawPortalSelection()/ handleUpgradeInput()/
+|Player System|Controls player movement, jumping, leveling and attacking (with bullets)|collection()/ checkFallDeath()/ isPlayerOverCliff()/ respawnPlayer()
+|Scene Manager|Controls scene switching, scene object initialization, and determining the current scene.|teleport(targetPortal)/ enterHiddenLevel()/ setupNextScene()/ isInCurrentScene(scene)
+|Level Entities|Objects in each scene: platforms, enemies, coins, cubes, etc.| Platform/ Enemy/ Coin/ Spike/ ...
+|Trap System|Various types of traps: turrets, spikes, doors and switching logic|drawGame() → call internal trap update (e.g. turret.update())/ Turret/ Bullet/ Cloud /Billboard
+|NPC & Ending System|Plot characters and ending decisions: Wizard, Antidote, EndSwitch|Automatically updated by Scene.update()
+|Resource System|Load images, sounds and setup keys, including volume management|preload()
+|HUD System|Display player information: experience bar, time, gold, level, etc.|drawHUD()
 <br>
 <br>
 #### Class diagrams

@@ -59,8 +59,7 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 - 15% ~750 words 
 - System architecture. Class diagrams, behavioural diagrams.
   
-#### System Architecture
-<br>
+### System Architecture
 In the early stages of development, the game was implemented using a centralized code structure, with most logic handled by global functions and variables across one or two files.<br>
 <br>
 As the game expanded—with features like upgrades, scene transitions, branching endings, and traps—this structure became harder to maintain and scale.<br>
@@ -68,13 +67,12 @@ As the game expanded—with features like upgrades, scene transitions, branching
 To address this, we reorganized the code into modular components during the **design documentation phase**, based on functional responsibilities. While this modular breakdown doesn't always reflect the physical file layout, it illustrates the logical architecture and supports future expansion and refactoring.<br>
 <br>
 Modules were grouped based on:<br>
-
 1. Related functionality;<br>
 2. Similar object types (e.g., scene elements);<br>
 3. Scalability considerations (e.g., asset preloading with `preload()`).<br>
-
 Ultimately, the system was divided into ten main modules.<br>
 <br>
+
 ![System Architecture Diagram](https://github.com/user-attachments/assets/f126b00d-7c7d-4e68-855b-87f93a1d0567)
 
 |Module Name|Functions|Function Name|
@@ -92,7 +90,7 @@ Ultimately, the system was divided into ten main modules.<br>
 <br>
 <br>
 
-#### Class Diagrams
+### Class Diagrams
 In our game system, we use **UML class diagrams** to model the **logical architecture and object relationships**. These diagrams clarify class responsibilities and show relationships like inheritance, composition, and aggregation.<br>
 <br>
 Based on the game’s structure, we organize the classes into four main sections:<br>
@@ -119,11 +117,13 @@ Based on the game’s structure, we organize the classes into four main sections
 - The **`upgradeButton`**, a subclass of `Button`, is tailored for upgrade selection.<br>
     - This follows an **inheritance** structure, extending base button behavior.<br>
 
+
+
 ![UML class](https://github.com/user-attachments/assets/056a1a24-af47-47a2-a35b-5b6b4cbf9125)
 <br>
 <br>
 
-#### Behavioural Diagrams - Sequence Diagram
+### Behavioural Diagrams - Sequence Diagram
 Throughout the game's design, many processes can be modeled using sequence diagrams. We selected the following three as key examples, as they represent core gameplay mechanics and involve multiple interacting modules.<br>
 <br>
 

@@ -437,11 +437,22 @@ We faced technical issues during development, such as objects not persisting bet
 
 
 ### Conclusion<br>
-After a full semester of hard work, we successfully developed and completed our game "Dukat Soul". From early-stage brainstorming and gameplay design to later programming and team collaboration, every stage came with its own challenges. Through this process, we gained valuable experience and grew as a team. Each member made important contributions in areas such as game experience, visual design, sound effects, and coding system architecture, helping us complete the project as a whole.<br><br>
+After a full semester of hard work, we successfully developed and completed our game "Dukat Soul". From early-stage brainstorming and gameplay design to later programming and team collaboration, every stage came with its own challenges. Through this process, we gained valuable experience and grew as a team. Each member made important contributions in areas such as game experience, visual design, sound effects, and coding system architecture, helping us complete the project as a whole.<br>
 
-Looking back, we realized that if we had understood the core content of the course and the key development goals earlier, we could have avoided spending extra time fixing and adjusting the game in later stages. Our team had many ambitious ideas and tried to include various gameplay and levels. However, due to limited understanding of stakeholders and the course requirement of presenting a “significant challenge,” we changed direction several times in the beginning, which affected our progress.<br><br>
+Looking back, we realized that if we had understood the core content of the course and the key development goals earlier, we could have avoided spending extra time fixing and adjusting the game in later stages. Our team had many ambitious ideas and tried to include various gameplay and levels. However, due to limited understanding of stakeholders and the course requirement of presenting a “significant challenge,” we changed direction several times in the beginning, which affected our progress.<br>
 
 Even so, we still managed to turn many creative ideas into working features, such as the player upgrade system, level switching, item and coin systems, and challenging traps. We also faced difficulties due to the different academic backgrounds of team members. Although some members lacked technical experience, our diverse skills and perspectives helped the project become more complete in terms of design, storytelling, and interaction. A good game requires not only solid code, but also a well-balanced and creative experience.<br><br>
+
+In the end, while our game meets the needs of most players, there is still room for improvement. From testing and feedback, we learned that UI/UX design and game mechanics have a big impact on the overall experience, so we will make these our focus in future development.
+For UI design, we plan to add more visual and sound feedback, such as animations when collecting coins or visual/sound effects when a player dies. These improvements will make the game more immersive and responsive. For UX, we noticed that the difference between easy and normal levels was not clear, and beginners lacked proper guidance. We plan to adjust the difficulty and level goals so that the game can better fit players of different skill levels, and increase their sense of achievement and engagement.<br>
+We also believe that emotional experience and sound design are important for immersion. The current sound effects and music are usable, but they don’t fully match the game’s style. In the future, we hope to create or commission custom music that better fits the world of the game.<br>
+
+In terms of game mechanics, since this is a semi-open-world game, we plan to add more interactive map elements and items. This will give players new content to explore each time they play, and increase replay value. We also want to improve the combat system by designing more types of attacks to make the game more exciting and strategic.<br><br>
+
+Overall, this project taught us how to divide work under pressure, use tools and methods flexibly, and improve product quality through constant revision and reflection. More importantly, we developed our teamwork and problem-solving skills through this valuable hands-on experience, which will help us in future projects.
+
+![image](https://github.com/user-attachments/assets/900c2d56-72e4-4db8-bd69-0121a8fd05d7)
+
 
 
 

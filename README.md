@@ -355,20 +355,38 @@ As mentioned earlier, we believe the easy mode might be too challenging for begi
 *The bar chart of workload scores across dimensions*![image](https://github.com/user-attachments/assets/3a4042f6-439b-4fa5-a56e-66266c31214d)  
 
 #### Game Testing: Black-box Testing
-For testing part, we use Black-box Testing to test if our game works appropriate. Here, we focus on testing two of our main features, upgrade system and portal flow. The testing processes are shown below:  
+For testing part, we use Black-box Testing to test if our game works appropriate. Here, we focus on testing three of our features, upgrade system, reset mechanism and chasing spike. The testing processes are shown below:  
 
-Upgrade Interface Test Flow
+Upgrade Interface Test Flow  
+Test Objective:  
+Verify the upgrade interface do showup after player collect enough coins.  
 1. The player starts from level 1.
 2. During gameplay, the tester collects coins scattered across the scene.
 3. When the total reaches 10 coins, the system should automatically trigger the level-up process.
 4. The game switches to the “upgrade” interface.
 5. We verify that the transition occurs, and that the UI is correctly displayed with level information.
    
-Portal Flow Test
-1. The player approaches a locked portal.
-2. Upon contact, the portal becomes unlocked and a checkpoint is set.
-3. When the player later presses the “Use” key (‘E’) at the portal, they are teleported to the last unlocked checkpoint.
-4. We validate the teleportation behavior and visual feedback.
+Reset scene after character died  
+Test Objective:  
+Verify that when the player dies (e.g., touches a visible spike), the current scene and relevant elements reset as expected.  
+Test Steps:
+1. Let the player walk into a visible spike or enemy to trigger death.
+2. Observe whether the player is respawned at the last checkpoint or default starting point.
+3. Observe if the scene resets:  
+    All coins that were collected are reset and become collectible again.  
+    All spikes become hidden again.  
+    Platform coins (from breakable or bump blocks) are reset.  
+4. Confirm the EXP is reset to 0 (but level remains unchanged).
+
+Chasing Spike Cross-Scene Behavior  
+Test Objective:  
+Verify that a "chasing spike" continues to pursue the player even when they move to another scene.  
+Test Steps:  
+1. Place a chasing spike in Scene 0 near the player.
+2. Trigger the spike’s visibility (e.g., by proximity).
+3. Move the player towards the right edge of the scene and transition to Scene 1.
+4. Observe if the chasing spike continues to follow the player into the new scene.
+
    
 These tests ensures that both features respond correctly to expected player actions, matching design requirements.
   

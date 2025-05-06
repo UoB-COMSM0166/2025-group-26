@@ -451,8 +451,6 @@ In terms of game mechanics, since this is a semi-open-world game, we plan to add
 
 Overall, this project taught us how to divide work under pressure, use tools and methods flexibly, and improve product quality through constant revision and reflection. More importantly, we developed our teamwork and problem-solving skills through this valuable hands-on experience, which will help us in future projects.
 
-![image](https://github.com/user-attachments/assets/900c2d56-72e4-4db8-bd69-0121a8fd05d7)
-
 
 
 

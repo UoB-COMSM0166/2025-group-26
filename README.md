@@ -423,10 +423,10 @@ Another visual designer, focused on designing enemy characters, UI elements, and
 
 #### 4.Team Reflection and Improvement<br>
 **4.1	Attitude and Communication**<br>
-Throughout this project, we realized that maintaining a positive and proactive attitude was crucial for effective teamwork, especially toward the end of the semester when academic workloads and exam pressure increased. Every team member demonstrated a strong sense of responsibility, actively taking on tasks, participating in discussions, and completing work on time. This contributed to a productive and comfortable team atmosphere. While such as WeChat and online meetings offered convenience, we found that in-person meetings were significantly more effective when addressing complex development topics—such as designing game mechanics and level flow. Face-to-face discussions allowed us to clarify misunderstandings more quickly and coordinate our progress more effectively. For this reason, we chose to rely primarily on in-person meetings, it greatly improved the quality and efficiency of our collaboration.<br>
+Throughout this project, we realized that maintaining a positive and proactive attitude was crucial for effective teamwork, especially toward the end of the semester when academic workloads and exam pressure increased. Every team member demonstrated a strong sense of responsibility, actively taking on tasks, participating in discussions, and completing work on time. This contributed to a productive and comfortable team atmosphere. While such as WeChat and online meetings offered convenience, we found that in-person meetings were significantly more effective when addressing complex development topics—such as designing game mechanics and level flow. Face-to-face discussions allowed us to clarify misunderstandings more quickly and coordinate our progress more effectively. For this reason, we chose to rely primarily on in-person meetings, it greatly improved the quality and efficiency of our collaboration.<br><br>
 **4.2	Challenges in Task Management and Workflow**<br>
 At the beginning of the project, our goal was to create a 2D side-scrolling game that could keep players engaged for more than 15 minutes. While this vision was both ambitious and inspiring, our team lacked practical experience and accurate workload estimation. As a result, our initial plan was overly broad, making it difficult to assess whether we could complete the project on time or meet course requirements.<br>
-Through learning agile development and the concept of story points, we gradually understood how to break down tasks and apply the sprint framework effectively. For example, we originally planned to design four levels with increasing difficulty. However, after realizing the course’s main focus was on code structure and innovative gameplay mechanics, we adjusted our priorities and scaled down the scope. This allowed us to concentrate our efforts on the aspects most relevant to the course objectives.<br>
+Through learning agile development and the concept of story points, we gradually understood how to break down tasks and apply the sprint framework effectively. For example, we originally planned to design four levels with increasing difficulty. However, after realizing the course’s main focus was on code structure and innovative gameplay mechanics, we adjusted our priorities and scaled down the scope. This allowed us to concentrate our efforts on the aspects most relevant to the course objectives.<br><br>
 
 **4.3	Challenges and Learning During Development and Design**<br>
 At the beginning of the project, we were unfamiliar with key course concepts such as prototypes, stakeholders, and sustainability. Although instructor encouraged us to apply these ideas to the game development process, we initially struggled to do so effectively.<br>
@@ -436,19 +436,14 @@ However, through ongoing team discussions, we gradually came to understand the v
 We faced technical issues during development, such as objects not persisting between side-scrolling levels. To address this, we used pair programming—one person coded while the other debugged in real time. This improved efficiency and teamwork, allowing us to solve the problem effectively.<br>
 
 
+### Conclusion<br>
+After a full semester of hard work, we successfully developed and completed our game "Dukat Soul". From early-stage brainstorming and gameplay design to later programming and team collaboration, every stage came with its own challenges. Through this process, we gained valuable experience and grew as a team. Each member made important contributions in areas such as game experience, visual design, sound effects, and coding system architecture, helping us complete the project as a whole.<br><br>
+
+Looking back, we realized that if we had understood the core content of the course and the key development goals earlier, we could have avoided spending extra time fixing and adjusting the game in later stages. Our team had many ambitious ideas and tried to include various gameplay and levels. However, due to limited understanding of stakeholders and the course requirement of presenting a “significant challenge,” we changed direction several times in the beginning, which affected our progress.<br><br>
+
+Even so, we still managed to turn many creative ideas into working features, such as the player upgrade system, level switching, item and coin systems, and challenging traps. We also faced difficulties due to the different academic backgrounds of team members. Although some members lacked technical experience, our diverse skills and perspectives helped the project become more complete in terms of design, storytelling, and interaction. A good game requires not only solid code, but also a well-balanced and creative experience.<br><br>
 
 
-
-
-
-
-
-
-
-### Conclusion
-
-- 10% ~500 words
-- Reflect on project as a whole. Lessons learned. Reflect on challenges. Future work.
 
 ## Other Details
 ### Weekly Homework Links

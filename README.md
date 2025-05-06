@@ -1,7 +1,7 @@
 # 2025-group-26
 2025 COMSM0166 group 26
 
-## Your Game
+## Our Game
 <p align="center">
   <a href="https://editor.p5js.org/Yuki457/full/t3Ne5YWpA" target="_blank">
     <img src="https://github.com/user-attachments/assets/acc4cfaa-2513-4f93-b0e4-8ad3d63c5d21" alt="poster" >
@@ -9,8 +9,6 @@
   <br>
   <em>🎮 Click the image to start playing!</em>
 </p>
-  
-🎮 Link to your game [PLAY HERE](https://editor.p5js.org/Yuki457/full/t3Ne5YWpA)
 
 📁 Your game lives in the [GameCode](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/Gamecode/Dukat%20Soul) folder, and is published using Github pages to the link above.
 

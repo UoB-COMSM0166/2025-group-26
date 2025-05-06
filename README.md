@@ -407,7 +407,11 @@ Served as a tool for collecting and defining our visual reference board. By buil
   Used to hand-draw all in-game characters, cover illustrations, custom typefaces, and animations. <br>
 - **Figma: <br>**
 Used to build interactive prototypes, which allowed us to simulate the game interface during user testing. It also helped the team review layouts in real time and collaborate efficiently during the design refinement process.<br>
-![未命名的作品 7 (1)](https://github.com/user-attachments/assets/6034ddc9-b44e-4fdc-b136-13d44b3d5d46)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6034ddc9-b44e-4fdc-b136-13d44b3d5d46" width="300" alt="未命名的作品 7 (1)">
+  <br>
+  <em>▲ Monster Character Design Process </em>
+</p>
 
 
 ---

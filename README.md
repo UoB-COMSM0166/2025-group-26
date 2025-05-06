@@ -3,9 +3,11 @@
 
 ## Your Game
 <p align="center">
-![HOME PAGE 示意圖副本](https://github.com/user-attachments/assets/acc4cfaa-2513-4f93-b0e4-8ad3d63c5d21)
- <br>
-  <em>🎮 Start Playing </em>
+  <a href="https://editor.p5js.org/Yuki457/full/t3Ne5YWpA" target="_blank">
+    <img src="https://github.com/user-attachments/assets/acc4cfaa-2513-4f93-b0e4-8ad3d63c5d21" alt="poster" width="400">
+  </a>
+  <br>
+  <em>🎮 Click the image to start playing!</em>
 </p>
   
 🎮 Link to your game [PLAY HERE](https://editor.p5js.org/Yuki457/full/t3Ne5YWpA)

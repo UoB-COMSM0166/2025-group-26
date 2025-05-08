@@ -98,7 +98,7 @@ Some members of the team were concerned that the high difficulty might discourag
 - 15% ~750 words 
 - System architecture. Class diagrams, behavioural diagrams.
   
-## System Architecture
+### System Architecture
 In the early stages of development, the game was implemented using a centralized code structure, with most logic handled by global functions and variables across one or two files.<br>
 <br>
 As the game expanded—with features like upgrades, scene transitions, branching endings, and traps—this structure became harder to maintain and scale.<br>
@@ -129,19 +129,19 @@ Ultimately, the system was divided into ten main modules.<br>
 <br>
 <br>
 
-## Class Diagrams
+### Class Diagrams
 In our game system, we use **UML class diagrams** to model the **logical architecture and object relationships**. These diagrams clarify class responsibilities and show relationships like inheritance, composition, and aggregation.<br>
 <br>
 Based on the game’s structure, we organize the classes into four main sections:<br>
 <br>
 
-### 1️⃣ **Core Classes (Game Control and Logic)**<br>
+1️⃣ **Core Classes (Game Control and Logic)**<br>
 - The **`Game` class** is the central controller, managing the game loop, state transitions (e.g., menu, gameplay, upgrade), and coordination of scenes and input.<br>
 - The **`Player` class** handles character movement, actions, and combat, and integrates closely with upgrades.<br>
 - The **`UpgradeSystem`** is composed within `Player` and manages XP, upgrade conditions, and abilities like double jump or weapon boosts.<br>
 <br>
 
-### 2️⃣ **Scene and Element Management (Aggregation)**<br>
+2️⃣ **Scene and Element Management (Aggregation)**<br>
 - The **`Scene` class** manages game levels, each containing objects like:<br>
     - `Platform`, `Enemy`, `Spike`, `Coin`<br>
     - `Portal` / `Pipe` (transitions)<br>
@@ -149,13 +149,13 @@ Based on the game’s structure, we organize the classes into four main sections
 - These are linked to the scene through **aggregation**, meaning they belong to the scene but can exist independently.<br>
 <br>
 
-### 3️⃣ **Interaction and Event Triggers**<br>
+3️⃣ **Interaction and Event Triggers**<br>
 - Players interact with objects like `Portal` or `Pipe` to change scenes.<br>
 - Special elements (e.g., `Wizard`, `Antidote`, `EndSwitch`) affect story and endings.<br>
 - These interactions are handled via `Player`, influencing game state or triggering branching outcomes.<br>
 <br>
 
-### 4️⃣ **UI and Controls**<br>
+4️⃣ **UI and Controls**<br>
 - The **`Button` class** is a reusable UI component for menus and transitions.<br>
 - The **`upgradeButton`**, a subclass of `Button`, is tailored for upgrade selection.<br>
     - This follows an **inheritance** structure, extending base button behavior.<br>
@@ -163,11 +163,11 @@ Based on the game’s structure, we organize the classes into four main sections
 ![UML class](https://github.com/user-attachments/assets/056a1a24-af47-47a2-a35b-5b6b4cbf9125)
 <br>
 
-## Behavioural Diagrams - Sequence Diagram
+### Behavioural Diagrams - Sequence Diagram
 Throughout the game's design, many processes can be modeled using sequence diagrams. We selected the following three as key examples, as they represent core gameplay mechanics and involve multiple interacting modules.<br>
 <br>
 
-### 1️⃣ **Upgrade Sequence**<br>
+1️⃣ **Upgrade Sequence**<br>
 ![螢幕擷取畫面 2025-05-02 033016](https://github.com/user-attachments/assets/d418c398-393a-446a-bf94-a9e1df1cebcc)
 
 **Scenario:**<br>
@@ -178,7 +178,7 @@ The flow starts from navigating options to confirming upgrades (e.g., double jum
 alt blocks represent upgrade branches, making the diagram both faithful to code and extensible.<br>
 <br>
 
-### 2️⃣ **Ending Branching Sequence**<br>
+2️⃣ **Ending Branching Sequence**<br>
 ![螢幕擷取畫面 2025-05-02 033105](https://github.com/user-attachments/assets/a280ae4b-43af-4ab6-b4a5-2959f566c581)
 
 **Scenario:**<br>
@@ -189,7 +189,7 @@ Triggered when `boss.hp <= 0` in `scene.update()`, activating `endSwitch`, then 
 An `alt` block shows the two branches. Includes `wizard.display()` for narrative interaction. The diagram reflects the full logic from game state changes to conditional rendering in `draw()`.<br>
 <br>
 
-### 3️⃣ **Death & Respawn Sequence**<br>
+3️⃣ **Death & Respawn Sequence**<br>
 ![螢幕擷取畫面 2025-05-02 033037](https://github.com/user-attachments/assets/53ba6338-71cc-4260-8a07-825f30aeb944)
 
 **Scenario:**<br>

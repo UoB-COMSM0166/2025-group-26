@@ -236,7 +236,7 @@ To avoid disrupting pacing, we tested various UI placements and transition timin
 
 ![upgrade-system](https://github.com/user-attachments/assets/3eb26d92-e333-429b-8f14-ca93f7935f50)
 
----
+
 
 ### **Challenge 2: Implementing the Cross-Scene Chasing Spike**
 
@@ -264,7 +264,7 @@ We built a timing system to start and stop the spike, and verified its motion vi
 
 ![tracking-spike](https://github.com/user-attachments/assets/493337dc-4624-403e-91e4-0d8038456d52)
 
----
+
 
 ### **Challenge 3: Managing Interactions Between Environment Elements**
 

@@ -210,11 +210,9 @@ Death is triggered by `player.y > height`, with `GameController` managing the pr
 2. Implementing cross-scene traps, especially the “chasing spike”
 3. Managing stateful environmental interactions across death and transition
 
----
+### **Challenge 1: Designing the Upgrade System**
 
-## **Challenge 1: Designing the Upgrade System**
-
-### **Problem Overview:**
+**Problem Overview:**
 
 We wanted the player to feel rewarded for progress, but without overwhelming them. The goal was to offer a meaningful choice every few minutes: weapon or buff? The design needed to:
 
@@ -222,7 +220,7 @@ We wanted the player to feel rewarded for progress, but without overwhelming the
 - Clearly differentiate between upgrade paths
 - Preserve upgrades through death and scene changes
 
-### **Thinking Process:**
+**Thinking Process:**
 
 Initial versions used instant upgrades, but that removed player agency. We then explored decision-triggered upgrades, but paused the game flow too often. Eventually, we aimed to:
 
@@ -230,7 +228,7 @@ Initial versions used instant upgrades, but that removed player agency. We then 
 - Let the player actively choose between two upgrade types
 - Pause gameplay only during upgrade selection
 
-### **Exploration & Solution:**
+**Exploration & Solution:**
 
 We created a leveling system tightly coupled with the collection logic. When enough coins were collected, the game entered an “upgrade state,” freezing all other interactions and offering a simple two-button UI. Behind this, we structured player attributes (like bullet ability or jump power) as level-dependent flags.
 
@@ -240,9 +238,9 @@ To avoid disrupting pacing, we tested various UI placements and transition timin
 
 ---
 
-## **Challenge 2: Implementing the Cross-Scene Chasing Spike**
+### **Challenge 2: Implementing the Cross-Scene Chasing Spike**
 
-### **Problem Overview:**
+**Problem Overview:**
 
 This trap begins moving once a switch is triggered and continues relentlessly across multiple hidden scenes, creating tension and urgency. The challenge was:
 
@@ -250,13 +248,13 @@ This trap begins moving once a switch is triggered and continues relentlessly ac
 - How to manage its motion and collision only when visible?
 - How to reset it precisely on player death?
 
-### **Thinking Process:**
+**Thinking Process:**
 
 Our initial instinct was to create a spike object per scene, but this led to synchronization issues. Then we imagined the trap as a global actor — not bound to any specific scene, but calculated using a “global x-position” and activated frame count.
 
 The key realization: scenes can be static, but the trap must think “globally.”
 
-### **Exploration & Solution:**
+**Exploration & Solution:**
 
 We treated the spike’s position as a function of time: starting from frame N, each frame moves it forward at fixed speed. Its scene index is derived from its position divided by canvas width.
 
@@ -268,9 +266,9 @@ We built a timing system to start and stop the spike, and verified its motion vi
 
 ---
 
-## **Challenge 3: Managing Interactions Between Environment Elements**
+### **Challenge 3: Managing Interactions Between Environment Elements**
 
-### **Problem Overview:**
+**Problem Overview:**
 
 Our game world includes gates, switches, moving platforms, hidden blocks, and more. Many elements depend on others — e.g., a switch opens a gate and triggers a trap. The core challenges were:
 
@@ -278,7 +276,7 @@ Our game world includes gates, switches, moving platforms, hidden blocks, and mo
 - How to ensure consistent behavior across scene transitions?
 - How to control what resets and what persists after death?
 
-### **Thinking Process:**
+**Thinking Process:**
 
 We started with hardcoded links (e.g., `switch[0] affects gate[0]`), but this rapidly became unscalable. We needed a **modular trigger system**: each switch knows what it affects, and each element listens for activation signals.
 
@@ -289,7 +287,7 @@ We also identified four interaction types:
 3. Resettable triggers (e.g., switch-trap combos)
 4. Multi-condition unlocks (e.g., hidden block + location)
 
-### **Exploration & Solution:**
+**Exploration & Solution:**
 
 We revised our object model to include shared references — each switch held a list of target objects it would affect. This made each scene self-contained, reducing coupling.
 

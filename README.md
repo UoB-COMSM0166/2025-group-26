@@ -320,14 +320,14 @@ For qualitative evaluation, we used the Think Aloud Protocol. This is an effecti
 
 Here is the further information of our think aloud evaluation. As mentioned above, the first mission of this evaluation was to set specific tasks for participants. In our evaluation, the first task required participants to successfully trigger upgrade page, and the second tasks required participants to successfully trigger portal mechanism. Our game features both the upgrade function and the portal system. The two tasks allow players not only to experience the core gameplay, but also to explore the unique elements of our game during the evaluation.  
 
-Below are the observations recorded by observer during the evaluation:
-1. Keyboard controls are not intuitive.  
+**Below are the observations recorded by observer during the evaluation:**
+**1. Keyboard controls are not intuitive.**  
    In Dukat Soul, players frequently use the move right, move left, and jump functions to clear levels. However, our default control assigned the jump function to the “J” key, which differs from the conventional setting—“spacebar”. As a result, several participants struggled to figure out how to jump at the beginning. Although we implemented a setting menu that       allows player to customise controls, clearer instructions are still necessary to ensure all user can easily understand how to operate the game.  
-2. Participants were unsure if they had collected items.  
+**2. Participants were unsure if they had collected items.**  
    In our game, coins are important items for triggering upgrade interface. While all participants noticed the coins during gameplay, some were unsure whether they had actually collected them, and others were uncertain about how many they had gathered. Based on this feedback, we plan to add an animation which visually shows coins being added to the experience         bar, helping players clearly understand that the coin has been collected.  
-3. Attacking mechanics are monotonous.  
+**3. Attacking mechanics are monotonous.**  
    Some participants commented that the attacking mechanics felt too repetitive. This is actually an opinion we look forward, as Dukat Soul is designed for players from beginners to experts. We expect experienced players to explore creative way to play, and this kind of feedback shows that they are beginning to do this. While we plan to retain the current             mechanics, we hope that players will find more various ways to complete each level.
-4. Block icons are confusing.  
+**4. Block icons are confusing.**  
    In our game, certain items are hidden inside blocks that players can bump to reveal. However, some participants reported confusion about which blocks contained items. We recognise that this negatively affects the user experience, so we plan to redesign the icons to clearly distinguish between regular blocks and item-containing blocks.  
 
 ### Quantitative Evaluation: NASA TLX
@@ -361,7 +361,7 @@ As mentioned earlier, we believe the easy mode might be too challenging for begi
 ### Game Testing: Black-box Testing
 For testing part, we use Black-box Testing to test if our game works appropriate. Here, we focus on testing three of our features, upgrade system, reset mechanism and chasing spike. The testing processes are shown below:  
 
-Upgrade Interface Test Flow  
+**Upgrade Interface Test Flow**
 Test Objective:  
 Verify the upgrade interface do showup after player collect enough coins.  
 1. The player starts from level 1.
@@ -370,7 +370,7 @@ Verify the upgrade interface do showup after player collect enough coins.
 4. The game switches to the “upgrade” interface.
 5. We verify that the transition occurs, and that the UI is correctly displayed with level information.
    
-Reset scene after character died  
+**Reset scene after character died**  
 Test Objective:  
 Verify that when the player dies (e.g., touches a visible spike), the current scene and relevant elements reset as expected.  
 Test Steps:
@@ -382,7 +382,7 @@ Test Steps:
     Platform coins (from breakable or bump blocks) are reset.  
 4. Confirm the EXP is reset to 0 (but level remains unchanged).
 
-Chasing Spike Cross-Scene Behavior  
+**Chasing Spike Cross-Scene Behavior**  
 Test Objective:  
 Verify that a "chasing spike" continues to pursue the player even when they move to another scene.  
 Test Steps:  

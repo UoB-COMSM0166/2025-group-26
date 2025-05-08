@@ -261,8 +261,9 @@ We treated the spike’s position as a function of time: starting from frame N, 
 Collision was enabled only when the spike’s scene matched the player’s. On death, all related objects, including the spike and triggering switches, were reset to initial state.
 
 We built a timing system to start and stop the spike, and verified its motion visually with debug overlays during testing.
-
-![tracking-spike](https://github.com/user-attachments/assets/493337dc-4624-403e-91e4-0d8038456d52)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/493337dc-4624-403e-91e4-0d8038456d52" width="400" alt="multi-trap">
+</p>
 
 
 

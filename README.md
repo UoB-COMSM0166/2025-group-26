@@ -1,7 +1,7 @@
 # 2025-group-26
 2025 COMSM0166 group 26
 
-## Our Game
+# Our Game
 <p align="center">
   <a href="https://editor.p5js.org/Yuki457/full/t3Ne5YWpA" target="_blank">
     <img src="https://github.com/user-attachments/assets/acc4cfaa-2513-4f93-b0e4-8ad3d63c5d21" alt="poster" >
@@ -18,7 +18,7 @@
 
 📑 [Game details](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/Game%20Details.md)
 
-## Your Group 🧍‍♂️👭👬
+# Your Group 🧍‍♂️👭👬
 ![IMG_2211 2](https://github.com/user-attachments/assets/1968bb52-32bb-43a1-8b22-b9d4c6253685)
 | NAME | EMAIL | ROLE |
 | --------- | -------- | -------- |
@@ -28,10 +28,10 @@
 |YU TING WU| am24417@bristol.ac.uk| ut125
 |CHENG HSUAN LEE| bo24397@bristol.ac.uk| Allison-sa
 
-## Project Report
+# Project Report
 
-### Introduction
---
+## Introduction
+
 
 - 5% ~250 words 
 - Describe your game, what is based on, what makes it novel? 
@@ -44,7 +44,7 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 
 
 
-### Requirements 
+## Requirements 
 
 1.Case Diagrams\
 2.User Stories\
@@ -87,8 +87,8 @@ We discussed who our target users would be and identified our core players as th
 Some members of the team were concerned that the high difficulty might discourage average players, so we finally reached a consensus to create multi-layered difficulty settings to ensure that even casual players could enjoy the game.
 
 
-### Design
----
+## Design
+
 
 1.System architecture\
 2.Class diagrams\
@@ -97,7 +97,7 @@ Some members of the team were concerned that the high difficulty might discourag
 - 15% ~750 words 
 - System architecture. Class diagrams, behavioural diagrams.
   
-### System Architecture
+## System Architecture
 In the early stages of development, the game was implemented using a centralized code structure, with most logic handled by global functions and variables across one or two files.<br>
 <br>
 As the game expanded—with features like upgrades, scene transitions, branching endings, and traps—this structure became harder to maintain and scale.<br>
@@ -128,7 +128,7 @@ Ultimately, the system was divided into ten main modules.<br>
 <br>
 <br>
 
-### Class Diagrams
+## Class Diagrams
 In our game system, we use **UML class diagrams** to model the **logical architecture and object relationships**. These diagrams clarify class responsibilities and show relationships like inheritance, composition, and aggregation.<br>
 <br>
 Based on the game’s structure, we organize the classes into four main sections:<br>
@@ -162,7 +162,7 @@ Based on the game’s structure, we organize the classes into four main sections
 ![UML class](https://github.com/user-attachments/assets/056a1a24-af47-47a2-a35b-5b6b4cbf9125)
 <br>
 
-### Behavioural Diagrams - Sequence Diagram
+## Behavioural Diagrams - Sequence Diagram
 Throughout the game's design, many processes can be modeled using sequence diagrams. We selected the following three as key examples, as they represent core gameplay mechanics and involve multiple interacting modules.<br>
 <br>
 
@@ -198,7 +198,7 @@ If the player hits a trap or falls off-screen, they die and respawn at the lates
 Death is triggered by `player.y > height`, with `GameController` managing the process: calling `respawnPlayer()` and updating the HUD.<br>
 <br>
 
-### Implementation
+## Implementation
 
 - 15% ~750 words
 - Describe implementation of your game, in particular highlighting the three areas of challenge in developing your game.
@@ -211,7 +211,7 @@ Death is triggered by `player.y > height`, with `GameController` managing the pr
 
 ---
 
-### **Challenge 1: Designing the Upgrade System**
+## **Challenge 1: Designing the Upgrade System**
 
 **Problem Overview:**
 
@@ -239,7 +239,7 @@ To avoid disrupting pacing, we tested various UI placements and transition timin
 
 ---
 
-### **Challenge 2: Implementing the Cross-Scene Chasing Spike**
+## **Challenge 2: Implementing the Cross-Scene Chasing Spike**
 
 **Problem Overview:**
 
@@ -267,7 +267,7 @@ We built a timing system to start and stop the spike, and verified its motion vi
 
 ---
 
-### **Challenge 3: Managing Interactions Between Environment Elements**
+## **Challenge 3: Managing Interactions Between Environment Elements**
 
 **Problem Overview:**
 
@@ -302,7 +302,7 @@ To verify correctness, we used “reset stress tests”: dying repeatedly at dif
 
 By deeply analyzing these three challenges and iteratively refining both design and logic, we built a system that is flexible, stable, and expandable. Our solutions combine real-time state tracking, modular signal-based design, and careful death-respawn handling — all key to delivering a responsive and rewarding gameplay experience.
 
-### Evaluation
+## Evaluation
 
 - 15% ~750 words
 - One qualitative evaluation (your choice) 
@@ -313,7 +313,7 @@ To further optimise our game, we decide to investigate user experience to identi
   
 For qualitative evaluation, we used the Think Aloud Protocol. This is an effective usability testing method that helps capture user experiences in real time. In this evaluation, the facilitator assigns several tasks for the participants. While completing these tasks, participants are asked to verbalise their thoughts and feelings. Meanwhile, an observer presents to document any issues or comments raised by participants during the process.  
 
-#### Qualitative evaluation: Think Aloud Evaluation
+### Qualitative evaluation: Think Aloud Evaluation
 
 Here is the further information of our think aloud evaluation. As mentioned above, the first mission of this evaluation was to set specific tasks for participants. In our evaluation, the first task required participants to successfully trigger upgrade page, and the second tasks required participants to successfully trigger portal mechanism. Our game features both the upgrade function and the portal system. The two tasks allow players not only to experience the core gameplay, but also to explore the unique elements of our game during the evaluation.  
 
@@ -327,7 +327,7 @@ Below are the observations recorded by observer during the evaluation:
 4. Block icons are confusing.  
    In our game, certain items are hidden inside blocks that players can bump to reveal. However, some participants reported confusion about which blocks contained items. We recognise that this negatively affects the user experience, so we plan to redesign the icons to clearly distinguish between regular blocks and item-containing blocks.  
 
-#### Quantitative Evaluation: NASA TLX
+### Quantitative Evaluation: NASA TLX
 
 In this section, we analyse the results of our quantitative evaluations using NASA TLX. For the NASA TLX, the workload scores of all participants under the two difficulties are shown below. In this table, most participants shows increased workload scores with higher difficulty. The average workload scores were 57 and 64 for the easy and difficult mode, respectively—indicating a moderate to high workload.  
   
@@ -355,7 +355,7 @@ As mentioned earlier, we believe the easy mode might be too challenging for begi
 
 *The bar chart of workload scores across dimensions*![image](https://github.com/user-attachments/assets/3a4042f6-439b-4fa5-a56e-66266c31214d)  
 
-#### Game Testing: Black-box Testing
+### Game Testing: Black-box Testing
 For testing part, we use Black-box Testing to test if our game works appropriate. Here, we focus on testing three of our features, upgrade system, reset mechanism and chasing spike. The testing processes are shown below:  
 
 Upgrade Interface Test Flow  
@@ -391,9 +391,9 @@ Test Steps:
    
 These tests ensures that both features respond correctly to expected player actions, matching design requirements.
   
-### Process 
----
-#### 1.	Collaboration and Communication<br>
+## Process 
+
+### 1.	Collaboration and Communication<br>
 In this game development project, we adopted an agile development approach to ensure steady progress and high quality. We used a hybrid communication model, with in-person meetings as the main method and online meetings as a supplement, to maintain effective teamwork.<br>
 
 Specifically, we used our Tuesday class time each week to complete team tasks, and held face-to-face team meetings every Saturday from 10 AM to 12 PM. These meetings included progress updates, to-do reviews, workload evaluation, and planning for the next sprint. We also valued user experience, so we conducted two rounds of user testing—one in the middle of the project and one near the end—using the feedback to continuously improve gameplay.<br>
@@ -404,7 +404,7 @@ For weekly meeting notes and task planning, we used Notion to keep records. The 
 
 Overall, our structured yet flexible communication approach played a key role in keeping the team aligned, solving problems quickly, and delivering the project successfully on time.<br>
 
-#### 2.	Tools and Collaboration Platforms <br>
+### 2.	Tools and Collaboration Platforms <br>
 **2.1	Version Control and Collaborative Development<br>**
 - **GitHub: <br>**
 Our team used GitHub for version control and collaborative development. Each member had their own folder and branch, allowing  them to work independently before merging into the main branch. This not only ensured code quality but also reduced communication overhead. In addition to code, other project-related materials such as game design documents, detailed game mechanics, user feedback (e.g., NASA-TLX, SUS), and class diagrams were also managed via GitHub. This helped maintain data consistency and traceability, allowing team members to track changes clearly and improving overall development efficiency and project transparency.<br><br>
@@ -438,8 +438,7 @@ Used to build interactive prototypes, which allowed us to simulate the game inte
 </p>
 
 
----
-#### 3.	Team Roles and Responsibilities<br>
+### 3.	Team Roles and Responsibilities<br>
 - Jianrun Han: <br>
 Lead programmer responsible for the overall code structure and the implementation of most core game mechanics.<br>
 - Tse Ying Chen: <br>
@@ -451,7 +450,7 @@ One of the visual designers, primarily responsible for drawing the main characte
 - Cheng Hsuan Lee: <br>
 Another visual designer, focused on designing enemy characters, UI elements, and background scenes.<br>
 
-#### 4.Team Reflection and Improvement<br>
+### 4.Team Reflection and Improvement<br>
 **4.1	Attitude and Communication**<br>
 Throughout this project, we realized that maintaining a positive and proactive attitude was crucial for effective teamwork, especially toward the end of the semester when academic workloads and exam pressure increased. Every team member demonstrated a strong sense of responsibility, actively taking on tasks, participating in discussions, and completing work on time. This contributed to a productive and comfortable team atmosphere. While such as WeChat and online meetings offered convenience, we found that in-person meetings were significantly more effective when addressing complex development topics—such as designing game mechanics and level flow. Face-to-face discussions allowed us to clarify misunderstandings more quickly and coordinate our progress more effectively. For this reason, we chose to rely primarily on in-person meetings, it greatly improved the quality and efficiency of our collaboration.<br><br>
 **4.2	Challenges in Task Management and Workflow**<br>
@@ -466,7 +465,7 @@ However, through ongoing team discussions, we gradually came to understand the v
 We faced technical issues during development, such as objects not persisting between side-scrolling levels. To address this, we used pair programming—one person coded while the other debugged in real time. This improved efficiency and teamwork, allowing us to solve the problem effectively.<br>
 
 
-### Conclusion<br>
+## Conclusion<br>
 After a full semester of hard work, we successfully developed and completed our game "Dukat Soul". From early-stage brainstorming and gameplay design to later programming and team collaboration, every stage came with its own challenges. Through this process, we gained valuable experience and grew as a team. Each member made important contributions in areas such as game experience, visual design, sound effects, and coding system architecture, helping us complete the project as a whole.<br>
 
 Looking back, we realized that if we had understood the core content of the course and the key development goals earlier, we could have avoided spending extra time fixing and adjusting the game in later stages. Our team had many ambitious ideas and tried to include various gameplay and levels. However, due to limited understanding of stakeholders and the course requirement of presenting a “significant challenge,” we changed direction several times in the beginning, which affected our progress.<br>
@@ -484,8 +483,8 @@ Overall, this project taught us how to divide work under pressure, use tools and
 
 
 
-## Other Details
-### Weekly Homework Links
+# Other Details
+## Weekly Homework Links
 | Week | Content |
 | --------- | -------- |
 |[Week1](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/WeekHomework/week1.md) | Research game and create a list of game
@@ -498,11 +497,19 @@ Overall, this project taught us how to divide work under pressure, use tools and
 | Adding| |
  
 
-### Contribution Statement
+## Contribution Statement
 
-- Provide a table of everyone's contribution, which may be used to weight individual grades. We expect that the contribution will be split evenly across team-members in most cases. Let us know as soon as possible if there are any issues with teamwork as soon as they are apparent. 
-
-### Additional Marks
+- Provide a table of everyone's contribution, which may be used to weight individual grades. We expect that the contribution will be split evenly across team-members in most cases. Let us know as soon as possible if there are any issues with teamwork as soon as they are apparent.
+<br>
+| Name | Contribution | Weight |
+| --------- | -------- | -------- |
+|Jianrun Han|Lead programmer responsible for the overall code structure and the implementation of most core game mechanics.|2
+|Tse Ying Chen|One of the gameplay designers, responsible for designing the difficulty curve and core logic of the Souls-like game system.|1
+|Kai Wu|Also a gameplay designer, responsible for planning the content of each level and developing the upgrade interface.|1
+|Yu Ting Wu|One of the visual designers, primarily responsible for drawing the main character, cover art, and environment design.|1
+|Cheng Hsuan Lee|Another visual designer, focused on designing enemy characters, UI elements, and background scenes.|1
+<br>
+## Additional Marks
 
 You can delete this section in your own repo, it's just here for information. in addition to the marks above, we will be marking you on the following two points:
 

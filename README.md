@@ -35,12 +35,12 @@
 
 - 5% ~250 words 
 - Describe your game, what is based on, what makes it novel? 
-
-Our game, Dukat Soul, is a mini-game that merges the iconic platforming elements of Super Mario with the punishing mechanics of "Soulslike" games. Built on the familiar foundation of side-scrolling action, the game reimagines Mario’s cheerful, forgiving world into a challenging adventure that tests both patience and precision.
-
-Inspired by the legendary Dark Souls series, Dukat Soul introduces a significantly higher difficulty curve, where players are expected to learn through repeated failure. Each level is designed with meticulous traps and unpredictable enemy patterns, forcing players to carefully study and adapt to progress. Unlike traditional Mario games, death carries a heavier penalty: lose them permanently.
-
-What makes the game novel is its fusion of two seemingly opposite genres: the lighthearted, accessible gameplay of Super Mario with the grim, hardcore philosophy of Soulslike design. This contrast creates a fresh gameplay experience where nostalgic platforming meets strategic, high-stakes survival. By transforming a familiar icon into a vessel for unforgiving challenge, Dukat Soul offers both fans of classic Mario and Souls veterans a unique twist on two beloved gaming traditions.
+<br>
+Our game, Dukat Soul, is a mini-game that merges the iconic platforming elements of Super Mario with the punishing mechanics of "Soulslike" games. Built on the familiar foundation of side-scrolling action, the game reimagines Mario’s cheerful, forgiving world into a challenging adventure that tests both patience and precision.<br>
+<br>
+Inspired by the legendary Dark Souls series, Dukat Soul introduces a significantly higher difficulty curve, where players are expected to learn through repeated failure. Each level is designed with meticulous traps and unpredictable enemy patterns, forcing players to carefully study and adapt to progress. Unlike traditional Mario games, death carries a heavier penalty: lose them permanently.<br>
+<br>
+What makes the game novel is its fusion of two seemingly opposite genres: the lighthearted, accessible gameplay of Super Mario with the grim, hardcore philosophy of Soulslike design. This contrast creates a fresh gameplay experience where nostalgic platforming meets strategic, high-stakes survival. By transforming a familiar icon into a vessel for unforgiving challenge, Dukat Soul offers both fans of classic Mario and Souls veterans a unique twist on two beloved gaming traditions.<br>
 
 
 
@@ -56,36 +56,36 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 - Use case diagrams, user stories. Early stages design. Ideation process. How did you decide as a team what to develop?
 
 
-1.	Case Diagrams
+1.	Case Diagrams<br>
 ![6a9ee3ecf5313a05ee73aeefa34ca22](https://github.com/user-attachments/assets/57feaafd-20d3-4ebf-828b-54e3a30559ff)
+<br>
+2.	User Stories<br>
+As a beginner to Souls-like games, I hope the game offers both simple and complex modes so that I can first learn the game through the easy mode and then switch to the hard mode for a deeper experience of the Souls-like mechanics.<br>
+As a new player, I hope to find a button layout option in the menu so that I can check the controls.<br>
+As someone who wants to experience a Souls-like game, I hope the game's art style is not as dark as the original Souls games, so I can play in a more relaxed mood.<br>
+As a casual player, I want to pause the game at any time, so that I can take breaks without losing progress.<br>
+As an experienced gamer, I hope the game displays playtime so that I can compete with my friends on how fast we complete the game.<br>
+As a hardcore gamer, I want the game to be difficult and unforgiving, so that I feel a real sense of achievement when I succeed.<br>
+As a player, I want to respawn quickly after dying, so that I can retry without long waiting times.<br>
+<br>
 
-2.	User Stories
-As a beginner to Souls-like games, I hope the game offers both simple and complex modes so that I can first learn the game through the easy mode and then switch to the hard mode for a deeper experience of the Souls-like mechanics.
-As a new player, I hope to find a button layout option in the menu so that I can check the controls.
-As someone who wants to experience a Souls-like game, I hope the game's art style is not as dark as the original Souls games, so I can play in a more relaxed mood.
-As a casual player, I want to pause the game at any time, so that I can take breaks without losing progress.
-As an experienced gamer, I hope the game displays playtime so that I can compete with my friends on how fast we complete the game.
-As a hardcore gamer, I want the game to be difficult and unforgiving, so that I feel a real sense of achievement when I succeed.
-As a player, I want to respawn quickly after dying, so that I can retry without long waiting times.
-
-
-3.	Early stages design
+3.	Early stages design<br>
 In the early design stage, our team established the idea of creating a Souls-like game based on Super Mario, so we directly adopted the classic side-scrolling action framework and, on that basis, designed maps and paper models for several levels. This included character jumping and attacking, an upgrade system, respawn points, level transitions, some traps, and the final boss. We considered introducing an item system midway through development but later abandoned the idea because it felt too complex. Additionally, we defined our team roles from the very beginning: the three male members with extensive Souls-like gaming experience handled the game mechanics and internal details, while the two female members with an art background worked on the visual design.
+<br>
 
+4.	Ideation process<br>
+During the game ideation phase, team member Kavie said to the group:<br>
 
-4.	Ideation process
-During the game ideation phase, team member Kavie said to the group:
+"With the recent rise in popularity of Souls-like games, we could design a light Souls-like game to align with people’s interest in experiencing this genre. I am a dedicated video game player, and my favorite genre is Souls-like games. I hope to let more people experience the charm of Souls-like games. However, since these games have a high entry barrier and many people dislike the dark aesthetic, we decided to design a lightweight Souls-like game."<br>
 
-"With the recent rise in popularity of Souls-like games, we could design a light Souls-like game to align with people’s interest in experiencing this genre. I am a dedicated video game player, and my favorite genre is Souls-like games. I hope to let more people experience the charm of Souls-like games. However, since these games have a high entry barrier and many people dislike the dark aesthetic, we decided to design a lightweight Souls-like game."
+At the same time, other team members suggested using a well-known and easy-to-pick-up game like Super Mario as the design prototype. Everyone agreed with this idea without much debate.<br>
 
-At the same time, other team members suggested using a well-known and easy-to-pick-up game like Super Mario as the design prototype. Everyone agreed with this idea without much debate.
+Initially, we also discussed designing a vertical scrolling shooter, but after considering its limited potential for innovation, we eventually abandoned that idea.<br>
 
-Initially, we also discussed designing a vertical scrolling shooter, but after considering its limited potential for innovation, we eventually abandoned that idea.
+We discussed who our target users would be and identified our core players as those with some basic gaming experience who are also looking for a higher challenge.<br>
 
-We discussed who our target users would be and identified our core players as those with some basic gaming experience who are also looking for a higher challenge.
-
-Some members of the team were concerned that the high difficulty might discourage average players, so we finally reached a consensus to create multi-layered difficulty settings to ensure that even casual players could enjoy the game.
-
+Some members of the team were concerned that the high difficulty might discourage average players, so we finally reached a consensus to create multi-layered difficulty settings to ensure that even casual players could enjoy the game.<br>
+<br>
 
 ## Design
 

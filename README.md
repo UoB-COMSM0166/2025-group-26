@@ -295,7 +295,10 @@ To handle persistence, we used flags to decide whether an object resets or remai
 
 To verify correctness, we used “reset stress tests”: dying repeatedly at different phases and validating state rollback.
 
-![multi-trap](https://github.com/user-attachments/assets/b0e3db65-ec08-4870-a306-5d1e46337f5a)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b0e3db65-ec08-4870-a306-5d1e46337f5a" width="400" alt="multi-trap">
+</p>
+
 
 
 By deeply analyzing these three challenges and iteratively refining both design and logic, we built a system that is flexible, stable, and expandable. Our solutions combine real-time state tracking, modular signal-based design, and careful death-respawn handling — all key to delivering a responsive and rewarding gameplay experience.

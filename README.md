@@ -234,8 +234,9 @@ We created a leveling system tightly coupled with the collection logic. When eno
 
 To avoid disrupting pacing, we tested various UI placements and transition timings. We also needed to preserve upgrades through death, so player level and choices were stored as persistent state, not reset upon respawn.
 
-![upgrade-system](https://github.com/user-attachments/assets/3eb26d92-e333-429b-8f14-ca93f7935f50)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3eb26d92-e333-429b-8f14-ca93f7935f50" width="400" alt="multi-trap">
+</p>
 
 
 ### **Challenge 2: Implementing the Cross-Scene Chasing Spike**

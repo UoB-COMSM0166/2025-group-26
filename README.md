@@ -61,13 +61,13 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 <br>
 
 ### 2.User Stories
-As a beginner to Souls-like games, I hope the game offers both simple and complex modes so that I can first learn the game through the easy mode and then switch to the hard mode for a deeper experience of the Souls-like mechanics.<br>
-As a new player, I hope to find a button layout option in the menu so that I can check the controls.<br>
-As someone who wants to experience a Souls-like game, I hope the game's art style is not as dark as the original Souls games, so I can play in a more relaxed mood.<br>
-As a casual player, I want to pause the game at any time, so that I can take breaks without losing progress.<br>
-As an experienced gamer, I hope the game displays playtime so that I can compete with my friends on how fast we complete the game.<br>
-As a hardcore gamer, I want the game to be difficult and unforgiving, so that I feel a real sense of achievement when I succeed.<br>
-As a player, I want to respawn quickly after dying, so that I can retry without long waiting times.<br>
+- As a beginner to Souls-like games, I hope the game offers both simple and complex modes so that I can first learn the game through the easy mode and then switch to the hard mode for a deeper experience of the Souls-like mechanics.<br>
+- As a new player, I hope to find a button layout option in the menu so that I can check the controls.<br>
+- As someone who wants to experience a Souls-like game, I hope the game's art style is not as dark as the original Souls games, so I can play in a more relaxed mood.<br>
+- As a casual player, I want to pause the game at any time, so that I can take breaks without losing progress.<br>
+- As an experienced gamer, I hope the game displays playtime so that I can compete with my friends on how fast we complete the game.<br>
+- As a hardcore gamer, I want the game to be difficult and unforgiving, so that I feel a real sense of achievement when I succeed.<br>
+- As a player, I want to respawn quickly after dying, so that I can retry without long waiting times.<br>
 <br>
 
 ### 3.Early stages design
@@ -78,13 +78,13 @@ In the early design stage, our team established the idea of creating a Souls-lik
 During the game ideation phase, team member Kavie said to the group:<br>
 
 "With the recent rise in popularity of Souls-like games, we could design a light Souls-like game to align with people’s interest in experiencing this genre. I am a dedicated video game player, and my favorite genre is Souls-like games. I hope to let more people experience the charm of Souls-like games. However, since these games have a high entry barrier and many people dislike the dark aesthetic, we decided to design a lightweight Souls-like game."<br>
-<br>
+
 At the same time, other team members suggested using a well-known and easy-to-pick-up game like Super Mario as the design prototype. Everyone agreed with this idea without much debate.<br>
 
 Initially, we also discussed designing a vertical scrolling shooter, but after considering its limited potential for innovation, we eventually abandoned that idea.<br>
 
 We discussed who our target users would be and identified our core players as those with some basic gaming experience who are also looking for a higher challenge.<br>
-<br>
+
 Some members of the team were concerned that the high difficulty might discourage average players, so we finally reached a consensus to create multi-layered difficulty settings to ensure that even casual players could enjoy the game.<br>
 <br>
 
@@ -105,7 +105,7 @@ As the game expanded—with features like upgrades, scene transitions, branching
 <br>
 To address this, we reorganized the code into modular components during the **design documentation phase**, based on functional responsibilities. While this modular breakdown doesn't always reflect the physical file layout, it illustrates the logical architecture and supports future expansion and refactoring.<br>
 <br>
-Modules were grouped based on:<br>
+**Modules were grouped based on:**<br>
 1. Related functionality;<br>
 2. Similar object types (e.g., scene elements);<br>
 3. Scalability considerations (e.g., asset preloading with `preload()`).<br>
@@ -121,8 +121,8 @@ Ultimately, the system was divided into ten main modules.<br>
 |UI System|Interactive interfaces such as the main menu, upgrade menu, setup screen, etc.|`drawMenu()`/ `drawDifficultyMenu()`/ `drawSettings()`/ `drawUpgrade()`/ `drawPortalSelection()`/ `handleUpgradeInput()`/
 |Player System|Controls player movement, jumping, leveling and attacking (with bullets)|`collection()`/ `checkFallDeath()`/ `isPlayerOverCliff()`/ `respawnPlayer()`
 |Scene Manager|Controls scene switching, scene object initialization, and determining the current scene.|`teleport(targetPortal)`/ `enterHiddenLevel()`/ `setupNextScene()`/ `isInCurrentScene(scene)`
-|Level Entities|Objects in each scene: platforms, enemies, coins, cubes, etc.| Platform/ Enemy/ Coin/ Spike/ ...
-|Trap System|Various types of traps: turrets, spikes, doors and switching logic|`drawGame()` → call internal trap update (e.g. `turret.update()`)/ Turret/ Bullet/ Cloud /Billboard
+|Level Entities|Objects in each scene: platforms, enemies, coins, cubes, etc.| `Platform`/ `Enemy`/ `Coin`/ `Spike`/ ...
+|Trap System|Various types of traps: turrets, spikes, doors and switching logic|`drawGame()` → call internal trap update (e.g. `turret.update()`)/ `Turret`/ `Bullet`/ `Cloud` /`Billboard`
 |NPC & Ending System|Plot characters and ending decisions: Wizard, Antidote, EndSwitch|Automatically updated by `Scene.update()`
 |Resource System|Load images, sounds and setup keys, including volume management|`preload()`
 |HUD System|Display player information: experience bar, time, gold, level, etc.|`drawHUD()`
@@ -135,13 +135,13 @@ In our game system, we use **UML class diagrams** to model the **logical archite
 Based on the game’s structure, we organize the classes into four main sections:<br>
 <br>
 
-1️⃣ **Core Classes (Game Control and Logic)**<br>
+### 1️⃣ **Core Classes (Game Control and Logic)**<br>
 - The **`Game` class** is the central controller, managing the game loop, state transitions (e.g., menu, gameplay, upgrade), and coordination of scenes and input.<br>
 - The **`Player` class** handles character movement, actions, and combat, and integrates closely with upgrades.<br>
 - The **`UpgradeSystem`** is composed within `Player` and manages XP, upgrade conditions, and abilities like double jump or weapon boosts.<br>
 <br>
 
-2️⃣ **Scene and Element Management (Aggregation)**<br>
+### 2️⃣ **Scene and Element Management (Aggregation)**<br>
 - The **`Scene` class** manages game levels, each containing objects like:<br>
     - `Platform`, `Enemy`, `Spike`, `Coin`<br>
     - `Portal` / `Pipe` (transitions)<br>
@@ -149,13 +149,13 @@ Based on the game’s structure, we organize the classes into four main sections
 - These are linked to the scene through **aggregation**, meaning they belong to the scene but can exist independently.<br>
 <br>
 
-3️⃣ **Interaction and Event Triggers**<br>
+### 3️⃣ **Interaction and Event Triggers**<br>
 - Players interact with objects like `Portal` or `Pipe` to change scenes.<br>
 - Special elements (e.g., `Wizard`, `Antidote`, `EndSwitch`) affect story and endings.<br>
 - These interactions are handled via `Player`, influencing game state or triggering branching outcomes.<br>
 <br>
 
-4️⃣ **UI and Controls**<br>
+### 4️⃣ **UI and Controls**<br>
 - The **`Button` class** is a reusable UI component for menus and transitions.<br>
 - The **`upgradeButton`**, a subclass of `Button`, is tailored for upgrade selection.<br>
     - This follows an **inheritance** structure, extending base button behavior.<br>
@@ -167,7 +167,7 @@ Based on the game’s structure, we organize the classes into four main sections
 Throughout the game's design, many processes can be modeled using sequence diagrams. We selected the following three as key examples, as they represent core gameplay mechanics and involve multiple interacting modules.<br>
 <br>
 
-1️⃣ **Upgrade Sequence**<br>
+### 1️⃣ **Upgrade Sequence**<br>
 ![螢幕擷取畫面 2025-05-02 033016](https://github.com/user-attachments/assets/d418c398-393a-446a-bf94-a9e1df1cebcc)
 
 **Scenario:**<br>
@@ -178,7 +178,7 @@ The flow starts from navigating options to confirming upgrades (e.g., double jum
 alt blocks represent upgrade branches, making the diagram both faithful to code and extensible.<br>
 <br>
 
-2️⃣ **Ending Branching Sequence**<br>
+### 2️⃣ **Ending Branching Sequence**<br>
 ![螢幕擷取畫面 2025-05-02 033105](https://github.com/user-attachments/assets/a280ae4b-43af-4ab6-b4a5-2959f566c581)
 
 **Scenario:**<br>
@@ -189,7 +189,7 @@ Triggered when `boss.hp <= 0` in `scene.update()`, activating `endSwitch`, then 
 An `alt` block shows the two branches. Includes `wizard.display()` for narrative interaction. The diagram reflects the full logic from game state changes to conditional rendering in `draw()`.<br>
 <br>
 
-3️⃣ **Death & Respawn Sequence**<br>
+### 3️⃣ **Death & Respawn Sequence**<br>
 ![螢幕擷取畫面 2025-05-02 033037](https://github.com/user-attachments/assets/53ba6338-71cc-4260-8a07-825f30aeb944)
 
 **Scenario:**<br>
@@ -214,7 +214,7 @@ Death is triggered by `player.y > height`, with `GameController` managing the pr
 
 ## **Challenge 1: Designing the Upgrade System**
 
-**Problem Overview:**
+### **Problem Overview:**
 
 We wanted the player to feel rewarded for progress, but without overwhelming them. The goal was to offer a meaningful choice every few minutes: weapon or buff? The design needed to:
 
@@ -222,7 +222,7 @@ We wanted the player to feel rewarded for progress, but without overwhelming the
 - Clearly differentiate between upgrade paths
 - Preserve upgrades through death and scene changes
 
-**Thinking Process:**
+### **Thinking Process:**
 
 Initial versions used instant upgrades, but that removed player agency. We then explored decision-triggered upgrades, but paused the game flow too often. Eventually, we aimed to:
 
@@ -230,7 +230,7 @@ Initial versions used instant upgrades, but that removed player agency. We then 
 - Let the player actively choose between two upgrade types
 - Pause gameplay only during upgrade selection
 
-**Exploration & Solution:**
+### **Exploration & Solution:**
 
 We created a leveling system tightly coupled with the collection logic. When enough coins were collected, the game entered an “upgrade state,” freezing all other interactions and offering a simple two-button UI. Behind this, we structured player attributes (like bullet ability or jump power) as level-dependent flags.
 
@@ -242,7 +242,7 @@ To avoid disrupting pacing, we tested various UI placements and transition timin
 
 ## **Challenge 2: Implementing the Cross-Scene Chasing Spike**
 
-**Problem Overview:**
+### **Problem Overview:**
 
 This trap begins moving once a switch is triggered and continues relentlessly across multiple hidden scenes, creating tension and urgency. The challenge was:
 
@@ -250,13 +250,13 @@ This trap begins moving once a switch is triggered and continues relentlessly ac
 - How to manage its motion and collision only when visible?
 - How to reset it precisely on player death?
 
-**Thinking Process:**
+### **Thinking Process:**
 
 Our initial instinct was to create a spike object per scene, but this led to synchronization issues. Then we imagined the trap as a global actor — not bound to any specific scene, but calculated using a “global x-position” and activated frame count.
 
 The key realization: scenes can be static, but the trap must think “globally.”
 
-**Exploration & Solution:**
+### **Exploration & Solution:**
 
 We treated the spike’s position as a function of time: starting from frame N, each frame moves it forward at fixed speed. Its scene index is derived from its position divided by canvas width.
 
@@ -270,7 +270,7 @@ We built a timing system to start and stop the spike, and verified its motion vi
 
 ## **Challenge 3: Managing Interactions Between Environment Elements**
 
-**Problem Overview:**
+### **Problem Overview:**
 
 Our game world includes gates, switches, moving platforms, hidden blocks, and more. Many elements depend on others — e.g., a switch opens a gate and triggers a trap. The core challenges were:
 
@@ -278,7 +278,7 @@ Our game world includes gates, switches, moving platforms, hidden blocks, and mo
 - How to ensure consistent behavior across scene transitions?
 - How to control what resets and what persists after death?
 
-**Thinking Process:**
+### **Thinking Process:**
 
 We started with hardcoded links (e.g., `switch[0] affects gate[0]`), but this rapidly became unscalable. We needed a **modular trigger system**: each switch knows what it affects, and each element listens for activation signals.
 
@@ -289,7 +289,7 @@ We also identified four interaction types:
 3. Resettable triggers (e.g., switch-trap combos)
 4. Multi-condition unlocks (e.g., hidden block + location)
 
-**Exploration & Solution:**
+### **Exploration & Solution:**
 
 We revised our object model to include shared references — each switch held a list of target objects it would affect. This made each scene self-contained, reducing coupling.
 

@@ -504,6 +504,7 @@ Overall, this project taught us how to divide work under pressure, use tools and
 
 - Provide a table of everyone's contribution, which may be used to weight individual grades. We expect that the contribution will be split evenly across team-members in most cases. Let us know as soon as possible if there are any issues with teamwork as soon as they are apparent.
 <br>
+
 | Name | Contribution | Weight |
 | --------- | -------- | -------- |
 |Jianrun Han|Lead programmer responsible for the overall code structure and the implementation of most core game mechanics.|2
@@ -512,6 +513,7 @@ Overall, this project taught us how to divide work under pressure, use tools and
 |Yu Ting Wu|One of the visual designers, primarily responsible for drawing the main character, cover art, and environment design.|1
 |Cheng Hsuan Lee|Another visual designer, focused on designing enemy characters, UI elements, and background scenes.|1
 <br>
+
 ## Additional Marks
 
 You can delete this section in your own repo, it's just here for information. in addition to the marks above, we will be marking you on the following two points:

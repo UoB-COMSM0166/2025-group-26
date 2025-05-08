@@ -438,7 +438,13 @@ Used to build interactive prototypes, which allowed us to simulate the game inte
   <img src="https://github.com/user-attachments/assets/6034ddc9-b44e-4fdc-b136-13d44b3d5d46" width="400" alt="未命名的作品 7 (1)">
   <br>
   <em>▲ Monster Character Design Process </em>
+</p><br>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1bb468ac-5a86-4c5b-a658-9fb63ae5d338" width="400" alt="未命名的作品 7 (1)">
+  <br>
+  <em>▲ Homepage Design Process </em>
 </p>
+
 
 
 ### 3.	Team Roles and Responsibilities<br>

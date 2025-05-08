@@ -56,11 +56,11 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 - Use case diagrams, user stories. Early stages design. Ideation process. How did you decide as a team what to develop?
 
 
-1.Case Diagrams<br>
+### 1.Case Diagrams
 ![6a9ee3ecf5313a05ee73aeefa34ca22](https://github.com/user-attachments/assets/57feaafd-20d3-4ebf-828b-54e3a30559ff)
 <br>
 
-2.User Stories<br>
+### 2.User Stories
 As a beginner to Souls-like games, I hope the game offers both simple and complex modes so that I can first learn the game through the easy mode and then switch to the hard mode for a deeper experience of the Souls-like mechanics.<br>
 As a new player, I hope to find a button layout option in the menu so that I can check the controls.<br>
 As someone who wants to experience a Souls-like game, I hope the game's art style is not as dark as the original Souls games, so I can play in a more relaxed mood.<br>
@@ -70,11 +70,11 @@ As a hardcore gamer, I want the game to be difficult and unforgiving, so that I 
 As a player, I want to respawn quickly after dying, so that I can retry without long waiting times.<br>
 <br>
 
-3.Early stages design<br>
+### 3.Early stages design
 In the early design stage, our team established the idea of creating a Souls-like game based on Super Mario, so we directly adopted the classic side-scrolling action framework and, on that basis, designed maps and paper models for several levels. This included character jumping and attacking, an upgrade system, respawn points, level transitions, some traps, and the final boss. We considered introducing an item system midway through development but later abandoned the idea because it felt too complex. Additionally, we defined our team roles from the very beginning: the three male members with extensive Souls-like gaming experience handled the game mechanics and internal details, while the two female members with an art background worked on the visual design.
 <br>
 
-4.Ideation process<br>
+### 4.Ideation process
 During the game ideation phase, team member Kavie said to the group:<br>
 
 "With the recent rise in popularity of Souls-like games, we could design a light Souls-like game to align with people’s interest in experiencing this genre. I am a dedicated video game player, and my favorite genre is Souls-like games. I hope to let more people experience the charm of Souls-like games. However, since these games have a high entry barrier and many people dislike the dark aesthetic, we decided to design a lightweight Souls-like game."<br>

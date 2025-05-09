@@ -12,7 +12,8 @@
 
 # Our Demo Video
 <p align="center">
-[![Watch the video](https://img.youtube.com/vi/JbnD2DP4Ff0/0.jpg)](https://youtu.be/JbnD2DP4Ff0)<br>
+[![Watch the video](https://img.youtube.com/vi/JbnD2DP4Ff0/0.jpg)](https://youtu.be/JbnD2DP4Ff0)
+<br>
 <em>🎥Click the image above to watch the demo.</em>
 </p>
 

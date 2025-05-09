@@ -447,11 +447,13 @@ Used to build interactive prototypes, which allowed us to simulate the game inte
   <br>
   <em>▲ Monster Character Design Process </em>
 </p><br>
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1bb468ac-5a86-4c5b-a658-9fb63ae5d338" width="400" alt="homepage">
+  <img src="assets/homepage.gif" width="400" alt="homepage">
   <br>
-  <em>▲ Homepage Design Process </em>
+  <em>▲ Homepage Design Process</em>
 </p>
+
 
 
 

@@ -12,8 +12,7 @@
 
 📁 Your game lives in the [GameCode](https://github.com/UoB-COMSM0166/2025-group-26/blob/main/Gamecode/Dukat%20Soul) folder, and is published using Github pages to the link above.
 
-## 🎮 Gameplay Demo Video 
-Watch our game in action:  
+Gameplay Demo Video 
 [▶️ Click here to watch the video on YouTube](https://youtu.be/JbnD2DP4Ff0)
 
 

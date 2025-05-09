@@ -39,10 +39,6 @@
 # Project Report
 
 ## Introduction
-
-
-- 5% ~250 words 
-- Describe your game, what is based on, what makes it novel? 
 <br>
 Our game, Dukat Soul, is a mini-game that merges the iconic platforming elements of Super Mario with the punishing mechanics of "Soulslike" games. Built on the familiar foundation of side-scrolling action, the game reimagines Mario’s cheerful, forgiving world into a challenging adventure that tests both patience and precision.<br>
 <br>
@@ -53,16 +49,6 @@ What makes the game novel is its fusion of two seemingly opposite genres: the li
 
 
 ## Requirements 
-
-1.Case Diagrams\
-2.User Stories\
-3.Early stages design\
-4.Ideation process\
-5.How did you decide as a team what to develop?
-
-- 15% ~750 words
-- Use case diagrams, user stories. Early stages design. Ideation process. How did you decide as a team what to develop?
-
 
 ### 1.Case Diagrams
 ![6a9ee3ecf5313a05ee73aeefa34ca22](https://github.com/user-attachments/assets/57feaafd-20d3-4ebf-828b-54e3a30559ff)
@@ -97,14 +83,6 @@ Some members of the team were concerned that the high difficulty might discourag
 <br>
 
 ## Design
-
-
-1.System architecture\
-2.Class diagrams\
-3.behavioural diagrams
-
-- 15% ~750 words 
-- System architecture. Class diagrams, behavioural diagrams.
   
 ### System Architecture
 In the early stages of development, the game was implemented using a centralized code structure, with most logic handled by global functions and variables across one or two files.<br>
@@ -209,9 +187,6 @@ Death is triggered by `player.y > height`, with `GameController` managing the pr
 
 ## Implementation
 
-- 15% ~750 words
-- Describe implementation of your game, in particular highlighting the three areas of challenge in developing your game.
-
 - During the development of this 2D platformer game, three major challenges shaped both the design and the implementation. Each problem required not only technical solutions, but also deep consideration of gameplay experience, logic coherence, and scalability. These challenges were:
 
 1. Designing a flexible and engaging upgrade system
@@ -314,11 +289,6 @@ To verify correctness, we used “reset stress tests”: dying repeatedly at dif
 By deeply analyzing these three challenges and iteratively refining both design and logic, we built a system that is flexible, stable, and expandable. Our solutions combine real-time state tracking, modular signal-based design, and careful death-respawn handling — all key to delivering a responsive and rewarding gameplay experience.
 
 ## Evaluation
-
-- 15% ~750 words
-- One qualitative evaluation (your choice) 
-- One quantitative evaluation (of your choice) 
-- Description of how code was tested. 
 
 To further optimise our game, we decide to investigate user experience to identify potential issues. We adopted both qualitative and quantitative evaluation methods.  
   

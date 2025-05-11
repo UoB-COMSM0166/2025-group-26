@@ -418,12 +418,6 @@ Used to build interactive prototypes, which allowed us to simulate the game inte
   <em>▲ Monster Character Design Process </em>
 </p><br>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c4dee542-e486-4c97-9be5-96cca12a3f9e" width="400" alt="homepage">
-  <br>
-  <em>▲ Homepage Design Process</em>
-</p>
-
 
 
 
@@ -501,13 +495,6 @@ Overall, this project taught us how to divide work under pressure, use tools and
 |Yu Ting Wu|One of the visual designers, primarily responsible for drawing the main character, cover art, and environment design.|1
 |Cheng Hsuan Lee|Another visual designer, focused on designing enemy characters, UI elements, and background scenes.|1
 <br>
-
-## Additional Marks
-
-You can delete this section in your own repo, it's just here for information. in addition to the marks above, we will be marking you on the following two points:
-
-- **Quality** of report writing, presentation, use of figures and visual material (5%) 
-  - Please write in a clear concise manner suitable for an interested layperson. Write as if this repo was publicly available.
 
 - **Documentation** of code (5%)
 

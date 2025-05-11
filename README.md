@@ -419,10 +419,12 @@ Used to build interactive prototypes, which allowed us to simulate the game inte
 </p><br>
 
 <p align="center">
-  <img src="assets/homepage.gif" width="400" alt="homepage">
+  <img src="https://github.com/user-attachments/assets/c4dee542-e486-4c97-9be5-96cca12a3f9e" width="400" alt="homepage">
   <br>
   <em>▲ Homepage Design Process</em>
 </p>
+
+
 
 
 

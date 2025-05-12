@@ -1,3 +1,6 @@
 [Discussion Notes](https://www.notion.so/week-4-class-discusstion-ae284070ac86431da74f15e76ad6ebeb) <br>
-Continuing to organize...
-kavie
+Throughout the development process, our team gained a deeper understanding of how to effectively define epics, user stories, and acceptance criteria, and how these elements connect with the context of our application.
+
+We began by identifying multiple types of stakeholders, such as hardcore players, casual players, nostalgia IP fans, and game streamers. From this, we learned the importance of crafting user stories that reflect diverse user motivations, including the desire for challenge, accessibility, nostalgia, and entertainment. By stepping into the shoes of different players — from a 12-year-old challenge-seeker to a 27-year-old puzzle-loving office worker — we realized that even users who share a love for games have very different expectations and needs.
+
+This process also helped us refine the core design of our game, Mario Souls, ensuring it bridges the gap between the challenging mechanics of soul games and the familiar style of classic platformers like Mario. We saw that incorporating user feedback early in the requirements stage leads to a more focused, inclusive design.

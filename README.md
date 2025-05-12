@@ -3,7 +3,7 @@
 
 # Our Game
 <p align="center">
-  <a href="https://uob-comsm0166.github.io/2025-group-26/index.html" target="_blank">
+  <a href="https://uob-comsm0166.github.io/2025-group-26/Gamecode/index.html" target="_blank">
     <img src="https://github.com/user-attachments/assets/acc4cfaa-2513-4f93-b0e4-8ad3d63c5d21" alt="poster" >
   </a>
   <br>
